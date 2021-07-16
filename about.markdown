@@ -9,7 +9,7 @@ I am currently a master student at Carnegie Mellon University with a focus on so
 
 A few things about me:
 - Software Engineer interested in distributed storage, server backend development, and cloud infra.
-- Basketball player since 8, idolizing Allen Iversion for life.
+- Basketball player since 8, idolizing Allen Iverson for life.
 - Read history, politics, and biography. Movies on political satire, social issues, and war.
 - Learning Java design pattern and C++ (now).
 - Proud alumni from William & Mary (2020) and Beijing No.8 High School (2017).
