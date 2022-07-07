@@ -1,0 +1,100 @@
+I"+<p>总算是毕业了，在确保最后一学期没有挂科的情况下匆忙地买了回国机票。10天前刚考完最后一门 final，现在就已经到了 LA 酒店，等待大使馆发绿码，希望祖国能接受我的千里投毒。</p>
+
+<p>匆忙之余，总要写点东西纪念一下这个 draconian 的最后一学期，毕竟学生时代大概的确是结束了。而总体来看，在 CMU 的一年半还算是满意，找全职意想不到地顺利（今年 market 太好），所以打算趁着没入职，记录一下关于秋招的碎碎念。</p>
+
+<h3 id="时间线">时间线</h3>
+<p>投的算是比较早，毕竟12月就要毕业，7月份还在 Cloudera 实习（划水）就开始投了。投的策略非常简单：去 levels.fyi 上设一个 filter，看哪家全职给的比 Cloudera (190k~) 高，比 Cloudera 低的就不投了（说的就是 Apple）。大概7月份和8月份都没有安排面试，做了一堆 OA 或者 CodeSignal，约了几家下一轮（VMWare，Cruise，Foursquare，剩下没到 onsite 的都忘了）。</p>
+
+<p>面试基本都安排在了九月和十月，我安排的比较策略性：phone screen 尽量安排在早上或者晚上，要么就是两节课之间的空隙，如果有多轮就 request back-to-back，因为这样的话 context switch 不会有太多的 overheads；onsite 基本一天下午搞完，尽量不拆成两天（保持状态）或者一天安排两场（亲测下午那场就会摆烂），10月之后我就几乎不面了，毕竟前半段 GPA 属于挂科状态，多拿几个同质化 offer 不如稳一点毕业。</p>
+
+<p><strong>very rough interview timeline</strong>：
+ 
+9.3: Houzz phone screen，面完被 HR ghost 了<br />
+9.6: Cruise HR chat，这轮算面试。。问了快一个小时<br />
+9.13: Foursquare 两轮 phone screen<br />
+9.16: C3 AI phone screen，挂<br />
+9.22: Verkada phone screen<br />
+9.23: Cruise 两轮 phone screen<br />
+9.27: Scale AI phone screen（20岁辍学的哈佛小哥面我个22岁的。。）<br />
+10.4: Cruise onsite（4）<br />
+10.5: Foursquare onsite（5）<br />
+10.6: IXL Learning phone screen<br />
+10.6: Shopee phone screen<br />
+10.12: Scale AI onsite（4）<br />
+10.14: VMWare Propel onsite（4）<br />
+10.15: Google onsite（5）<br />
+10.18: Shopee final/manager interview<br />
+10.19: IXL Learning onsite (面了前两场就摆烂了，直接退了 meeting)<br />
+10.26: Cruise manager interview<br />
+10.29: Verkada (physical) onsite @ San Mateo (5)<br />
+11.4: Rubrik 前两轮 onsite (skip phone screen)<br />
+11.9: Rubrik 后两轮 onsite<br />
+11.12: VMWare Networking 组招 onsite, skip phone screen (3)<br /></p>
+
+<h3 id="offers">Offers</h3>
+<ul>
+  <li><strong>Cloudera return</strong>: ~190k, RSU (176k) as cash, equally vested in 4 years. Bonus paid quarterly.</li>
+  <li><strong>Foursquare</strong>: ~180k, based in LA.</li>
+  <li><strong>Google (accepted)</strong>: ~220k first year, front loading vesting schedule.</li>
+  <li><strong>VMWare组招</strong>: ~190k, 股票比 Propel 多 50k.</li>
+  <li><strong>Cruise</strong>: 不到200k，down-level to L2.</li>
+  <li><strong>Rubrik</strong>: 太晚才出口头 offer 直接给拒了</li>
+  <li><strong>Shopee</strong>: ~500k RMB, based in Singapore.</li>
+</ul>
+
+<h4 id="onsite-reject">Onsite Reject</h4>
+<ul>
+  <li><strong>Verkada</strong>：我觉得我面的挺好的。。而且Verkada是唯一一家疫情期间坚持现场 onsite 的公司，结果面完一周之后打电话告诉我被拒了。。。不过面试体验还是不错的，其中有两轮的面试官都是sales，有一个还是VP，感觉比较像硅谷早期的面试风格。比如其中两个问题是“美国一共有多少个teddy bear”和“给你30分钟，说服我买xxx产品”。这家 VP 基本都是 sales 出身，而且公司文化上比较像大学的兄弟会（frat culture）。</li>
+  <li><strong>Scale AI</strong>：一个哈佛，一个UCB，两个MIT，能过才怪。。题很像 ICPC 的风格，核心算法不难，但 corner case 很多，而且不追求优化，感觉想考察在短时间内给出一个能 minimally work 的 solution 的能力。</li>
+  <li><strong>VMWare Propel</strong>：<del>垃圾，真的垃圾。</del>极其常规的leetcode，面试官全都敷衍了事，最后一位居然说我把 reverse linkedlist 写错了。。面完手贱发了个邮件，写了几个 tests，附上了结果正确的 console log，果然被拒了。</li>
+</ul>
+
+<h4 id="黑名单">黑名单</h4>
+<ul>
+  <li><strong>IXL Learning:</strong> <del>傻逼公司。</del>居然还有压力面这种东亚文化糟粕。其他面的面试官也都爱答不理，我讲完思路问 make sense 吗他说让我先写，写完了又告诉你这不对那不对，<del>妈了个逼的</del>不会早说？<br /></li>
+  <li><strong>VMWare Propel:</strong> 面试官<del>傻逼</del>就算了，HR 拒人还挺有艺术：先给你约个 Zoom 说有 update 了，meeting 之前发封邮件告诉你被拒了，meeting 的时候直接 no show，半个小时给你发邮件说家边上刮台风电脑 crashed 了。。。直接回邮件 diss back。<br /></li>
+  <li><strong>Shopee:</strong> 实话新加坡厂的办事效率还是不错的，5分钟内回邮件的 HR 真没见过，约面试时间也非常快。可惜就是终面的面试官水平属实有限，想装逼都装不到点上。第一轮 engineer 面还可以，常规 bfs + followup，第二轮 manager 简直是灾难，说到数据库不知道buffer pool，说到分布式系统设计不知道 ACID，你自己都不知道就别考 system design 了，容易翻车。<br /></li>
+</ul>
+
+<h3 id="一些策略和-takeaway">一些策略和 takeaway</h3>
+<ul>
+  <li>尽量把所有的 onsite 集中在一个月，这样 offer 有效的时间大致重叠，方便一起 compete。</li>
+  <li>面到有offer之后就可以选择性地面试，面之前查一查大概能给多少钱，同质化的 offer 收多了没什么用，最好的就是有一个很高的 superstar offer（但不一定是最想去的），用这个去 compete 真正想去的厂。我如果能有一个 HFT 或者给的很高的 startup，就可以用它来 compete Google，可惜的是 Cruise lowball 了我，level 上比正常 NG 低了一级，叫 associate swe，打听了一下是因为组是写移动端的全栈组，不算核心业务。其他的 cloud 相关的厂都给的大差不差，毕竟 cloud 已经是很成熟的产业了，给的并没有我想象的多。</li>
+  <li>对于 GPA，要抱着及格万岁的心态，不过在 INI 还要保证奖学金不被 revoke，所以得悠着点儿。</li>
+  <li>NG 并不是不能尝试 1-3 年的 experienced hire，只要你简历能说服 HR 就行。</li>
+  <li>12月毕业的话最后一学期压力还是挺大的，适当放松心情，可以在 onsite 之间的周末出去玩儿一圈。10月底的时候也不是特别想去面 Verkada，但因为连续一个月的 onsite 实在太累了，所以就借着 Verkada 现场面试飞了一圈三番，去看了 CMU 的硅谷校区，和很多因为疫情从没见过面的朋友吃了饭，打了保龄球，尽管那个时候堆了很多作业，当天晚上就要飞回来补考 midterm。事后很意外地看，这是我那个学期过的最开心的两天。</li>
+</ul>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="/assets/bowling.JPG" />
+    <br />
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">生活不是竞技场, 2021/10/29</div>
+</center>
+
+<p> </p>
+<h3 id="大厂-crud-还是-startup-走一波">大厂 CRUD 还是 startup 走一波？</h3>
+<p>这个问题我几乎是想了快一个学期，到现在也不知道 Google 到底是不是自己内心的选择，是不是还是会潜意识地考虑 brand name 和身份问题。如果你九月份问我，我一定会放弃 Google，选择 Cruise。其实什么 IPO 之后股票翻倍都不是决定性的，而是在 Cruise 能够 deliver 更大的 impact，尤其是无人车商业化刚刚起步的阶段，需要 engineer 去做用户体验，增长，构建成规模的 data infra pipeline/cloud backend。而 Google 因为今年先走 PA match 的政策，没有办法知道具体的组，而且 Google 虽然用户体量大，但每个人具体做的东西仅仅是庞大系统里的一个小零件，甚至说很容易就会成为 CRUD engineer, which I don’t want to be at the beginning of the career…</p>
+
+<p>但从另一个角度来想，不是内心的选择其实也没那么重要，因为从世俗的角度看，职业生涯必须要考虑 brand name 和身份：没有 brand name 背书，就像我本科在 wm 的时候一样，连面试的门槛都进不去（虽然我觉得 Cruise 应该没有这个问题）；没有身份，未来的一切都是白搭，甚至被迫转到其他国家的组。所以毕业头两年去 Google 学学技术，把身份稳下来，不算“妙手”，也算是“本手”吧<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>当然，我很可能是错的，只是目前，我已经做出了我认为是“本手”的选择。当年本科放弃南加大选择了 wm，之后的几年我抱怨过，也站在不同的位置上重新分析过，但我从没有后悔过当年的选择，因为如果「想学文科，喜欢文理教育，可能读 PhD」的 assumptions 仍然存在，我还会义无反顾地选择 wm。人终究是囿于当前的 assumptions 的，所以没有必要纠结是对是错，只要做了选择，就算未来 assumptions 改变，我也能承受这个选择所带来的结果，就够了。</p>
+
+<h3 id="吐个槽">吐个槽</h3>
+<p><strong>垃圾 INI，垃圾 740，这个不划</strong><br />
+我真是不明白 INI 何苦要开这么多自己的课，如果说学不到东西但是能轻松混个学分，不说好课但起码不至于是垃圾课，但 Bill Nace 的 740 实在是无法忍受的烂。INI 应该发挥自己的优势（工业界的校友资源，找工项目的口碑，practicum project），而不是非要拙劣地弥补弱势（教学水平）。其实大家都懂，教的水平就是烂，与其费力招教授，还不如放学生去上 SCS 的课，至少不要设这么多<strong>垃圾</strong>的必修课。我知道院里也想有些牌面，但是清楚自己擅长什么很重要，比如主打找工作的口碑，课程上开几门 networking &amp; security 相关的课，讲得好再设成必修，讲得烂就放过学生吧。</p>
+
+<p>Yuan @ Los Angeles 
+2021/12/25</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>意为掌握一般分寸的合乎本分之著手 – 百度百科 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

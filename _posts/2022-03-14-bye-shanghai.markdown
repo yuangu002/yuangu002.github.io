@@ -22,5 +22,7 @@ permalink: /bye-shanghai/
 
 Carpe Diem, 青春万岁。
 
+&nbsp;
+
 Yuan
 2022.3.14 @ Shanghai
