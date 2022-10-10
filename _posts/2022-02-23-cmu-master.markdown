@@ -78,3 +78,8 @@ Diversity 其实比较好理解，一个学校越 technical，必修课越少，
 </center>
 
 Always proud to be a Tartan!
+
+&nbsp;
+
+Yuan @ Beijing
+2022/02/23
