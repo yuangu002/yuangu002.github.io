@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-09T19:00:34-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yuan’s blog</title><subtitle>Carpe Diem, Seize the Day</subtitle><entry><title type="html">24岁，祝我生日快乐</title><link href="http://localhost:4000/24/" rel="alternate" type="text/html" title="24岁，祝我生日快乐" /><published>2022-10-08T00:00:00-05:00</published><updated>2022-10-08T00:00:00-05:00</updated><id>http://localhost:4000/hbd</id><content type="html" xml:base="http://localhost:4000/24/">&lt;p&gt;这是我 18 岁之后，第一次给自己放个假过生日。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-30T20:47:31-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yuan Gu</title><subtitle>Carpe Diem, Seize the Day</subtitle><entry><title type="html">24岁，祝我生日快乐</title><link href="http://localhost:4000/24/" rel="alternate" type="text/html" title="24岁，祝我生日快乐" /><published>2022-10-08T00:00:00-07:00</published><updated>2022-10-08T00:00:00-07:00</updated><id>http://localhost:4000/hbd</id><content type="html" xml:base="http://localhost:4000/24/">&lt;p&gt;这是我 18 岁之后，第一次给自己放个假过生日。&lt;/p&gt;
 
 &lt;p&gt;尤其是 20 岁之后的这几年，我甚至开始刻意回避过生日这个话题了，因为每一次的生日，都在提醒自己又大了一岁。这种感觉，一年比一年压抑。&lt;/p&gt;
 
@@ -33,7 +33,175 @@
 &lt;p&gt; &lt;/p&gt;
 
 &lt;p&gt;Yuan @ Chicago ORD&lt;br /&gt;
-2022/10/09&lt;/p&gt;</content><author><name></name></author><summary type="html">这是我 18 岁之后，第一次给自己放个假过生日。</summary></entry><entry><title type="html">起飞前随便写写</title><link href="http://localhost:4000/2022/06/19/random.html" rel="alternate" type="text/html" title="起飞前随便写写" /><published>2022-06-19T00:00:00-05:00</published><updated>2022-06-19T00:00:00-05:00</updated><id>http://localhost:4000/2022/06/19/random</id><content type="html" xml:base="http://localhost:4000/2022/06/19/random.html">&lt;p&gt;大一之后就像做了一场梦，时间过得已经没有了时间的概念，好像人生就只剩下了事业和证明，好像高中的梦想过于单纯，好像我没有选择过，只是被生活推着走，踽踽独行。&lt;/p&gt;
+2022/10/09&lt;/p&gt;</content><author><name></name></author><summary type="html">这是我 18 岁之后，第一次给自己放个假过生日。</summary></entry><entry><title type="html">[Effective Engineer] Mindset (Part 1)</title><link href="http://localhost:4000/effective-engineer/" rel="alternate" type="text/html" title="[Effective Engineer] Mindset (Part 1)" /><published>2022-07-15T00:00:00-07:00</published><updated>2022-07-15T00:00:00-07:00</updated><id>http://localhost:4000/effective-engineer</id><content type="html" xml:base="http://localhost:4000/effective-engineer/">&lt;p&gt;&lt;a href=&quot;https://www.effectiveengineer.com/book&quot;&gt;The Effective Engineer&lt;/a&gt;, written by Edmond Lau, is the Bible for software engineer. I summarize key points of this book (with minimal insights from me) and break it down into three major steps of practicing to become an effective engineer: adopting the right mindset, execute religiously, and build long-term value. This article is about part 1: the mindset.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: although a summary like this can help, I highly recommend reading it for more insights, as some examples in this book can inspire you to reflect your scenario at work.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The best thing that you can do is not pretend that you know everything, but go into it with the mindset that your job is to learn as much as you can, as quickly as you can.” - Mark Zuckerberg&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;chapter-1-focus-on-high-leverage-activities&quot;&gt;[Chapter 1] Focus on high-leverage activities&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Maximize the &lt;strong&gt;“leverage”&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;A simple math equation: impact produced / time invested.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-to-measure-impact&quot;&gt;How to measure impact?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;For software engineers: getting things done (GTD).&lt;/li&gt;
+  &lt;li&gt;Measured by metrics: product launch, bug fixes, important features, performance optimization, seek approval/alignment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-ways-to-increase-leverage&quot;&gt;3 ways to increase leverage&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Increase output/impact within a period of time.&lt;/li&gt;
+  &lt;li&gt;Reduce invested time to do the same thing.&lt;/li&gt;
+  &lt;li&gt;Focus on leverage points/high-leverage activities.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;questions-to-ask-for-any-activity&quot;&gt;Questions to ask for any activity&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;How to get more things done per time unit?&lt;/li&gt;
+  &lt;li&gt;How to get things done faster?&lt;/li&gt;
+  &lt;li&gt;Is there a more high-leverage activity to do instead?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chapter-2-optimize-for-learning&quot;&gt;[Chapter 2] Optimize for learning&lt;/h2&gt;
+&lt;h3 id=&quot;adopt-growth-mindset&quot;&gt;Adopt growth mindset&lt;/h3&gt;
+&lt;h4 id=&quot;stretching-outside-the-comfort-zone&quot;&gt;Stretching outside the comfort zone&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Networking for introverts: practice how to tell a good story.&lt;/li&gt;
+  &lt;li&gt;Dialogue with strangers is a learnable skills.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;own-your-story&quot;&gt;“own your story”&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Build your own story instead of telling other’s story.&lt;/li&gt;
+  &lt;li&gt;Excited to solve the next problem, even though you don’t have any background before.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;invest-in-learning-rate&quot;&gt;Invest in learning rate&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Learning increases in an exponential rate, like compound interests.&lt;/li&gt;
+  &lt;li&gt;Optimize for learning early on: a good first job -&amp;gt; a rapidly growing career.&lt;/li&gt;
+  &lt;li&gt;Small delta increments: the point is about staying consistent and committed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;work-in-the-environment-conducive-for-learning&quot;&gt;Work in the environment conducive for learning&lt;/h3&gt;
+&lt;p&gt;I am being extremely exhaustive on this section because it can be a checklist when I want to switch job. :)&lt;/p&gt;
+&lt;h4 id=&quot;fast-growth&quot;&gt;Fast growth&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Growth on core metrics: DAU, CTR, user engagement/retention rate, etc.&lt;/li&gt;
+  &lt;li&gt;Are you going to work on initiatives that are &lt;strong&gt;core&lt;/strong&gt; to the company growth?&lt;/li&gt;
+  &lt;li&gt;Are they aggressively hiring over recent years?&lt;/li&gt;
+  &lt;li&gt;How quickly for superstars grow to leadership positions?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;training&quot;&gt;Training&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Is there onboarding/bootcamp period for new hire?&lt;/li&gt;
+  &lt;li&gt;Is there formal/informal mentorship?&lt;/li&gt;
+  &lt;li&gt;Willing to make long-term learning investment?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;openness&quot;&gt;Openness&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Cross-team transparency: what are other teams working on?&lt;/li&gt;
+  &lt;li&gt;Culture of curiosity: proactively ask questions, open knowledge sharing, value feedback, etc.&lt;/li&gt;
+  &lt;li&gt;Reflect and document past mistakes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;pace&quot;&gt;Pace&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Moving fast and break things: “fast” defined by iteration speed.&lt;/li&gt;
+  &lt;li&gt;Lightweight approval process.&lt;/li&gt;
+  &lt;li&gt;Where to spend the majority of time: maintenance versus building new product/features?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;people&quot;&gt;People&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Is the interviewer smarter than you?&lt;/li&gt;
+  &lt;li&gt;Are interviews rigorous and comprehensive?&lt;/li&gt;
+  &lt;li&gt;Meet with potential teammates beforehand: are they impressive?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;autonomy&quot;&gt;Autonomy&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Freedom to choose what to work on/how to do it?&lt;/li&gt;
+  &lt;li&gt;Diversity of projects?&lt;/li&gt;
+  &lt;li&gt;Engineer’s influence on product design &amp;amp; direction?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;leverage-work-opportunities-to-develop-your-technical-depth&quot;&gt;Leverage work opportunities to develop your technical depth&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;20% time at Google: take one-or-two hour per day instead of a full day.&lt;/li&gt;
+  &lt;li&gt;Study codebase for classic software abstractions.&lt;/li&gt;
+  &lt;li&gt;Internal educational materials.&lt;/li&gt;
+  &lt;li&gt;Master your PL: at least one scripting language for quick prototyping.&lt;/li&gt;
+  &lt;li&gt;Take courses of your weak points: professional degree, management science, MBA, etc.&lt;/li&gt;
+  &lt;li&gt;Participate in design reviews that you are interested in.&lt;/li&gt;
+  &lt;li&gt;At least a few senior members on the team.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;locate-learning-opportunities-outside-work&quot;&gt;Locate learning opportunities outside work&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Follow technical trends and learn skills with high demand.&lt;/li&gt;
+  &lt;li&gt;Read books; attend talks/conferences; and write to teach.&lt;/li&gt;
+  &lt;li&gt;Build a strong network of relationships: force yourself to meet people you don’t know.&lt;/li&gt;
+  &lt;li&gt;Work on side projects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chapter-3-prioritize-regularly&quot;&gt;[Chapter 3] Prioritize regularly&lt;/h2&gt;
+&lt;p&gt;Making prioritization as a routine means regularly identify/reidentify high-leverage activities.&lt;/p&gt;
+
+&lt;p&gt;Never trust your brain to remember everything. Use checklist in whatever form, but the point is that &lt;strong&gt;you must write them down&lt;/strong&gt; and &lt;strong&gt;constantly reassess/reorganize them based on shifting priorities&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-should-be-prioed&quot;&gt;What should be prio’ed?&lt;/h3&gt;
+&lt;h4 id=&quot;work-that-directly-produce-value&quot;&gt;Work that directly produce value&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tasks that directly increases acquired users, sales, or impacts your team’s core business metrics.&lt;/li&gt;
+  &lt;li&gt;Coding necessary features, seek PM approval for product launch, regular sync with teammates to avoid duplicate efforts, etc.&lt;/li&gt;
+  &lt;li&gt;Only focus on what matters: say No to unnecessary meetings, coffee chat, small bugs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;important-but-non-urgent-tasks-identity-capital&quot;&gt;Important but non-urgent tasks (identity capital)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Investment that make you more effective but without urgent deadlines: build relationships, learn programming tools/environments, personal development, practicing prioritization, etc.&lt;/li&gt;
+  &lt;li&gt;Investment in identity capital can help you with important-and-urgent tasks with being more productive.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-to-execute-on-them&quot;&gt;How to execute on them?&lt;/h3&gt;
+&lt;h4 id=&quot;protect-makers-schedule&quot;&gt;Protect maker’s schedule&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Block your calendar with long, continuous time slots for critical tasks, which enables you to enter the state of &lt;em&gt;flow&lt;/em&gt; (the effortless concentration).&lt;/li&gt;
+  &lt;li&gt;Make your meetings back-to-back instead of fragmenting your schedule, which can reduce the context switch cost.&lt;/li&gt;
+  &lt;li&gt;Set routines like “No meeting Wednesday”, “Focus Friday”, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;limit-work-in-progress-items&quot;&gt;Limit work-in-progress items&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Constant context switch between tasks hinder deep engagement of each one.&lt;/li&gt;
+  &lt;li&gt;Human brain’s working memory can only &lt;em&gt;load&lt;/em&gt; 5-9 tasks on stage.&lt;/li&gt;
+  &lt;li&gt;Use trial and error to find your &lt;em&gt;optimal number&lt;/em&gt; of WIPs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;make-it-a-habit-by-establishing-your-workflow&quot;&gt;Make it a habit by establishing your workflow&lt;/h3&gt;
+&lt;h4 id=&quot;use-if-then-to-fight-procrastination&quot;&gt;Use if-then to fight procrastination&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Subconscious followup: If {conditions}, I will do {tasks}. This can prevent the moments that “I don’t feel like doing it” because the if condition subconsciously forces you to think the then-tasks are something that you need to do anyway.&lt;/li&gt;
+  &lt;li&gt;To fill up small gaps: if I have 20 minutes, I will do {tasks}. So you won’t spend 10 minutes wondering what to do next and end up not finishing it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;build-your-own-routine-workflow-to-track-and-execute&quot;&gt;Build your own routine workflow to track and execute.&lt;/h4&gt;
+&lt;p&gt;Edmond provides an example that beginners can start off with.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Divide your checklist to &lt;strong&gt;Doing&lt;/strong&gt;, &lt;strong&gt;Today&lt;/strong&gt;, and &lt;strong&gt;This week&lt;/strong&gt; sections.&lt;/li&gt;
+  &lt;li&gt;Each item should have an ETA (estimated time to complete): use 25 minutes as a unit and mark each item with the estimated number of units.&lt;/li&gt;
+  &lt;li&gt;Every morning, spend a few minutes planning: moving some items from &lt;strong&gt;This week&lt;/strong&gt; to &lt;strong&gt;Today&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;When you are free during the day or right before your “concentrated time block” starts, moving items from &lt;strong&gt;Today&lt;/strong&gt; to &lt;strong&gt;Doing&lt;/strong&gt;. Keep them short!&lt;/li&gt;
+  &lt;li&gt;Monday morning/Sunday night, do a 30-minute review session to scope out &lt;strong&gt;This week&lt;/strong&gt; section for this week and retrospect on items that were not executed well in the last week.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">The Effective Engineer, written by Edmond Lau, is the Bible for software engineer. I summarize key points of this book (with minimal insights from me) and break it down into three major steps of practicing to become an effective engineer: adopting the right mindset, execute religiously, and build long-term value. This article is about part 1: the mindset.</summary></entry><entry><title type="html">起飞前随便写写</title><link href="http://localhost:4000/2022/06/19/random.html" rel="alternate" type="text/html" title="起飞前随便写写" /><published>2022-06-19T00:00:00-07:00</published><updated>2022-06-19T00:00:00-07:00</updated><id>http://localhost:4000/2022/06/19/random</id><content type="html" xml:base="http://localhost:4000/2022/06/19/random.html">&lt;p&gt;大一之后就像做了一场梦，时间过得已经没有了时间的概念，好像人生就只剩下了事业和证明，好像高中的梦想过于单纯，好像我没有选择过，只是被生活推着走，踽踽独行。&lt;/p&gt;
 
 &lt;p&gt;上一次来波士顿是大一上学期的 final weeks，去 BU 和 Brandeis 找了朋友，final weeks 出来玩儿是因为在威廉斯堡快要炸了，找不到情绪的发泄出口。实话说那个时候很迷茫，不再想学IR了，可是也不确定要转什么专业，更不确定能不能学好计算机这种从来没有碰过的东西。&lt;/p&gt;
 
@@ -48,7 +216,7 @@
 &lt;p&gt; &lt;/p&gt;
 
 &lt;p&gt;Yuan @ Boston
-2022/06/19&lt;/p&gt;</content><author><name></name></author><summary type="html">大一之后就像做了一场梦，时间过得已经没有了时间的概念，好像人生就只剩下了事业和证明，好像高中的梦想过于单纯，好像我没有选择过，只是被生活推着走，踽踽独行。</summary></entry><entry><title type="html">又到了离开的时候</title><link href="http://localhost:4000/bye-shanghai/" rel="alternate" type="text/html" title="又到了离开的时候" /><published>2022-03-14T00:00:00-05:00</published><updated>2022-03-14T00:00:00-05:00</updated><id>http://localhost:4000/bye-shanghai</id><content type="html" xml:base="http://localhost:4000/bye-shanghai/">&lt;p&gt;我自认为我是相当没有仪式感的一个人，过年过节、过生日、实习、毕业、入职。。。人生种种的关键节点，从来没停下来 emo 过。但惟独每次要回美国的时候，在机场拥抱告别，看飞机滑行降落，心里总有一些话想说，大概这就是“多情自古伤离别”罢。&lt;/p&gt;
+2022/06/19&lt;/p&gt;</content><author><name></name></author><summary type="html">大一之后就像做了一场梦，时间过得已经没有了时间的概念，好像人生就只剩下了事业和证明，好像高中的梦想过于单纯，好像我没有选择过，只是被生活推着走，踽踽独行。</summary></entry><entry><title type="html">又到了离开的时候</title><link href="http://localhost:4000/bye-shanghai/" rel="alternate" type="text/html" title="又到了离开的时候" /><published>2022-03-14T00:00:00-07:00</published><updated>2022-03-14T00:00:00-07:00</updated><id>http://localhost:4000/bye-shanghai</id><content type="html" xml:base="http://localhost:4000/bye-shanghai/">&lt;p&gt;我自认为我是相当没有仪式感的一个人，过年过节、过生日、实习、毕业、入职。。。人生种种的关键节点，从来没停下来 emo 过。但惟独每次要回美国的时候，在机场拥抱告别，看飞机滑行降落，心里总有一些话想说，大概这就是“多情自古伤离别”罢。&lt;/p&gt;
 
 &lt;p&gt;第一次来上海是 2017 年，走马观花地还留着一些记忆，外滩、东方之珠、杜莎夫人、奥灶面、周边的几个小镇和园林，以及很困惑于上海的道路命名方式。但要说最深刻的，莫过于在机场买了一本李开复的《人工智能》。刚刚高中毕业的我，大学的专业是 undecided，高中最感兴趣的是世界历史，对计算机的了解程度嘛。。。这么讲，我当时都不知道怎么打开 terminal，于是我花了整整一晚上理解了什么是激活函数。虽然一知半解，但我还是很兴奋，并不是因为 ML 能赚多少钱，而是我想那个叫 sigma 的函数里一定蕴藏着神秘的力量，而 undecided major 可以带我去探索这些未知。&lt;/p&gt;
 
@@ -69,7 +237,7 @@
 &lt;p&gt; &lt;/p&gt;
 
 &lt;p&gt;Yuan
-2022.3.14 @ Shanghai&lt;/p&gt;</content><author><name></name></author><summary type="html">我自认为我是相当没有仪式感的一个人，过年过节、过生日、实习、毕业、入职。。。人生种种的关键节点，从来没停下来 emo 过。但惟独每次要回美国的时候，在机场拥抱告别，看飞机滑行降落，心里总有一些话想说，大概这就是“多情自古伤离别”罢。</summary></entry><entry><title type="html">我在 CMU 学到了什么？</title><link href="http://localhost:4000/cmu-master/" rel="alternate" type="text/html" title="我在 CMU 学到了什么？" /><published>2022-02-23T00:00:00-06:00</published><updated>2022-02-23T00:00:00-06:00</updated><id>http://localhost:4000/cmu-master</id><content type="html" xml:base="http://localhost:4000/cmu-master/">&lt;p&gt;刚刚收到了从 CMU 寄到北京的毕业证，我这个人比较浅薄，实在没有做科研的伟大志向，所以硕士应该是我学生时代的结尾了。回想起两年前举足无措的自己，CMU 确实是给了我一个更高的平台，得到了很多在 wm 不可能得到的机会，并且在毕业的时候拿到了 6 个 全职 offer，找工作的过程也非常顺利，甚至单单用 CMU 这个 title 就可以拿到面试。经济方面，从2020年8月到2021年12月，这一年半也不算拮据，不像在 wm 一样出了车祸连 2500 的 deductible 都拿不出来，一共两万多奖学金，加上暑假实习和 TA 的钱，几乎 cover 了一大半的学费，所以总体来说，我对 CMU 确实很感激。&lt;/p&gt;
+2022.3.14 @ Shanghai&lt;/p&gt;</content><author><name></name></author><summary type="html">我自认为我是相当没有仪式感的一个人，过年过节、过生日、实习、毕业、入职。。。人生种种的关键节点，从来没停下来 emo 过。但惟独每次要回美国的时候，在机场拥抱告别，看飞机滑行降落，心里总有一些话想说，大概这就是“多情自古伤离别”罢。</summary></entry><entry><title type="html">我在 CMU 学到了什么？</title><link href="http://localhost:4000/cmu-master/" rel="alternate" type="text/html" title="我在 CMU 学到了什么？" /><published>2022-02-23T00:00:00-08:00</published><updated>2022-02-23T00:00:00-08:00</updated><id>http://localhost:4000/cmu-master</id><content type="html" xml:base="http://localhost:4000/cmu-master/">&lt;p&gt;刚刚收到了从 CMU 寄到北京的毕业证，我这个人比较浅薄，实在没有做科研的伟大志向，所以硕士应该是我学生时代的结尾了。回想起两年前举足无措的自己，CMU 确实是给了我一个更高的平台，得到了很多在 wm 不可能得到的机会，并且在毕业的时候拿到了 6 个 全职 offer，找工作的过程也非常顺利，甚至单单用 CMU 这个 title 就可以拿到面试。经济方面，从2020年8月到2021年12月，这一年半也不算拮据，不像在 wm 一样出了车祸连 2500 的 deductible 都拿不出来，一共两万多奖学金，加上暑假实习和 TA 的钱，几乎 cover 了一大半的学费，所以总体来说，我对 CMU 确实很感激。&lt;/p&gt;
 
 &lt;center&gt;
     &lt;img style=&quot;border-radius: 0.3125em;
@@ -149,7 +317,7 @@
 &lt;p&gt; &lt;/p&gt;
 
 &lt;p&gt;Yuan @ Beijing
-2022/02/23&lt;/p&gt;</content><author><name></name></author><summary type="html">刚刚收到了从 CMU 寄到北京的毕业证，我这个人比较浅薄，实在没有做科研的伟大志向，所以硕士应该是我学生时代的结尾了。回想起两年前举足无措的自己，CMU 确实是给了我一个更高的平台，得到了很多在 wm 不可能得到的机会，并且在毕业的时候拿到了 6 个 全职 offer，找工作的过程也非常顺利，甚至单单用 CMU 这个 title 就可以拿到面试。经济方面，从2020年8月到2021年12月，这一年半也不算拮据，不像在 wm 一样出了车祸连 2500 的 deductible 都拿不出来，一共两万多奖学金，加上暑假实习和 TA 的钱，几乎 cover 了一大半的学费，所以总体来说，我对 CMU 确实很感激。</summary></entry><entry><title type="html">【秋招碎碎念】大厂还是 startup？</title><link href="http://localhost:4000/ng-ft-swe/" rel="alternate" type="text/html" title="【秋招碎碎念】大厂还是 startup？" /><published>2021-12-25T00:00:00-06:00</published><updated>2021-12-25T00:00:00-06:00</updated><id>http://localhost:4000/swe-ft</id><content type="html" xml:base="http://localhost:4000/ng-ft-swe/">&lt;p&gt;总算是毕业了，在确保最后一学期没有挂科的情况下匆忙地买了回国机票。10天前刚考完最后一门 final，现在就已经到了 LA 酒店，等待大使馆发绿码，希望祖国能接受我的千里投毒。&lt;/p&gt;
+2022/02/23&lt;/p&gt;</content><author><name></name></author><summary type="html">刚刚收到了从 CMU 寄到北京的毕业证，我这个人比较浅薄，实在没有做科研的伟大志向，所以硕士应该是我学生时代的结尾了。回想起两年前举足无措的自己，CMU 确实是给了我一个更高的平台，得到了很多在 wm 不可能得到的机会，并且在毕业的时候拿到了 6 个 全职 offer，找工作的过程也非常顺利，甚至单单用 CMU 这个 title 就可以拿到面试。经济方面，从2020年8月到2021年12月，这一年半也不算拮据，不像在 wm 一样出了车祸连 2500 的 deductible 都拿不出来，一共两万多奖学金，加上暑假实习和 TA 的钱，几乎 cover 了一大半的学费，所以总体来说，我对 CMU 确实很感激。</summary></entry><entry><title type="html">【秋招碎碎念】大厂还是 startup？</title><link href="http://localhost:4000/ng-ft-swe/" rel="alternate" type="text/html" title="【秋招碎碎念】大厂还是 startup？" /><published>2021-12-25T00:00:00-08:00</published><updated>2021-12-25T00:00:00-08:00</updated><id>http://localhost:4000/swe-ft</id><content type="html" xml:base="http://localhost:4000/ng-ft-swe/">&lt;p&gt;总算是毕业了，在确保最后一学期没有挂科的情况下匆忙地买了回国机票。10天前刚考完最后一门 final，现在就已经到了 LA 酒店，等待大使馆发绿码，希望祖国能接受我的千里投毒。&lt;/p&gt;
 
 &lt;p&gt;匆忙之余，总要写点东西纪念一下这个 draconian 的最后一学期，毕竟学生时代大概的确是结束了。而总体来看，在 CMU 的一年半还算是满意，找全职意想不到地顺利（今年 market 太好），所以打算趁着没入职，记录一下关于秋招的碎碎念。&lt;/p&gt;
 
@@ -248,7 +416,7 @@
       &lt;p&gt;意为掌握一般分寸的合乎本分之著手 – 百度百科 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">总算是毕业了，在确保最后一学期没有挂科的情况下匆忙地买了回国机票。10天前刚考完最后一门 final，现在就已经到了 LA 酒店，等待大使馆发绿码，希望祖国能接受我的千里投毒。</summary></entry><entry><title type="html">2020 Fall MSCS 申请攻略和总结</title><link href="http://localhost:4000/grad-app/" rel="alternate" type="text/html" title="2020 Fall MSCS 申请攻略和总结" /><published>2020-05-03T00:00:00-05:00</published><updated>2020-05-03T00:00:00-05:00</updated><id>http://localhost:4000/cs-grad-app</id><content type="html" xml:base="http://localhost:4000/grad-app/">&lt;p&gt;&lt;strong&gt;个人背景：&lt;br /&gt;&lt;/strong&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">总算是毕业了，在确保最后一学期没有挂科的情况下匆忙地买了回国机票。10天前刚考完最后一门 final，现在就已经到了 LA 酒店，等待大使馆发绿码，希望祖国能接受我的千里投毒。</summary></entry><entry><title type="html">2020 Fall MSCS 申请攻略和总结</title><link href="http://localhost:4000/grad-app/" rel="alternate" type="text/html" title="2020 Fall MSCS 申请攻略和总结" /><published>2020-05-03T00:00:00-07:00</published><updated>2020-05-03T00:00:00-07:00</updated><id>http://localhost:4000/cs-grad-app</id><content type="html" xml:base="http://localhost:4000/grad-app/">&lt;p&gt;&lt;strong&gt;个人背景：&lt;br /&gt;&lt;/strong&gt;
 &lt;strong&gt;学校：&lt;/strong&gt;威廉玛丽学院&lt;br /&gt;
 &lt;strong&gt;专业：&lt;/strong&gt;CS + 数学，三年毕业 (本来想四年的，课上太快了第四年没课上，被迫提前毕业)&lt;br /&gt;
 &lt;strong&gt;申请方向：&lt;/strong&gt;SDE &amp;amp; ML。全 master，本科毕业找不着工作 + 喜欢钱 + research 摧毁了我对 phd 的幻想&lt;br /&gt;
@@ -364,7 +532,7 @@ https://www.quora.com/What-should-be-the-flow-of-thoughts-in-a-statement-of-purp
 &lt;p&gt; &lt;/p&gt;
 
 &lt;p&gt;顾源&lt;br /&gt;
-2020/05/03&lt;/p&gt;</content><author><name></name></author><summary type="html">个人背景： 学校：威廉玛丽学院 专业：CS + 数学，三年毕业 (本来想四年的，课上太快了第四年没课上，被迫提前毕业) 申请方向：SDE &amp;amp; ML。全 master，本科毕业找不着工作 + 喜欢钱 + research 摧毁了我对 phd 的幻想 成绩：overall GPA 3.8+, CS GPA 3.9+; GRE: 331 (v: 162; q: 169; aw: 4.5) 推荐信：三封 faculty（two CS and one math）+ 一封国内实习老板。faculty 应该没有强推，math 就是普通课程推，因为跟推荐的中国教授经常打球所以关系比较好（我估计教授到最后觉得我数学没啥可写的可能就写篮球了）。CS 两封都是 research supervisor，一段 ml 一段 performance analysis on compiler。两段都没有成果，所以我自己都觉得没啥可写的，因为compiler太冷了所以那个教授我就只用了两三个 research-focused 的项目。国内老板嘛，你懂的，如果单看内容肯定这篇最强。</summary></entry><entry><title type="html">威廉玛丽劝退帖</title><link href="http://localhost:4000/on-wm-cs/" rel="alternate" type="text/html" title="威廉玛丽劝退帖" /><published>2020-03-25T00:00:00-05:00</published><updated>2020-03-25T00:00:00-05:00</updated><id>http://localhost:4000/bye-wm</id><content type="html" xml:base="http://localhost:4000/on-wm-cs/">&lt;p&gt;可算毕业了，盼了三年，心情真是相当激动。没错我是来劝退的。&lt;/p&gt;
+2020/05/03&lt;/p&gt;</content><author><name></name></author><summary type="html">个人背景： 学校：威廉玛丽学院 专业：CS + 数学，三年毕业 (本来想四年的，课上太快了第四年没课上，被迫提前毕业) 申请方向：SDE &amp;amp; ML。全 master，本科毕业找不着工作 + 喜欢钱 + research 摧毁了我对 phd 的幻想 成绩：overall GPA 3.8+, CS GPA 3.9+; GRE: 331 (v: 162; q: 169; aw: 4.5) 推荐信：三封 faculty（two CS and one math）+ 一封国内实习老板。faculty 应该没有强推，math 就是普通课程推，因为跟推荐的中国教授经常打球所以关系比较好（我估计教授到最后觉得我数学没啥可写的可能就写篮球了）。CS 两封都是 research supervisor，一段 ml 一段 performance analysis on compiler。两段都没有成果，所以我自己都觉得没啥可写的，因为compiler太冷了所以那个教授我就只用了两三个 research-focused 的项目。国内老板嘛，你懂的，如果单看内容肯定这篇最强。</summary></entry><entry><title type="html">威廉玛丽劝退帖</title><link href="http://localhost:4000/on-wm-cs/" rel="alternate" type="text/html" title="威廉玛丽劝退帖" /><published>2020-03-25T00:00:00-07:00</published><updated>2020-03-25T00:00:00-07:00</updated><id>http://localhost:4000/bye-wm</id><content type="html" xml:base="http://localhost:4000/on-wm-cs/">&lt;p&gt;可算毕业了，盼了三年，心情真是相当激动。没错我是来劝退的。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;结论：学CS想赚钱的不要来（不打算phd的），而对于不做科研来讲，CS master除了名声没什么实际意义。&lt;/strong&gt;&lt;/p&gt;
 
@@ -433,7 +601,7 @@ https://www.quora.com/What-should-be-the-flow-of-thoughts-in-a-statement-of-purp
 
 &lt;p&gt; &lt;/p&gt;
 
-&lt;p&gt;原地址：https://www.zhihu.com/question/24305453/answer/1103830520&lt;/p&gt;</content><author><name></name></author><summary type="html">可算毕业了，盼了三年，心情真是相当激动。没错我是来劝退的。</summary></entry><entry><title type="html">写于武汉封城的当天：我的2019</title><link href="http://localhost:4000/2019/" rel="alternate" type="text/html" title="写于武汉封城的当天：我的2019" /><published>2020-01-24T00:00:00-06:00</published><updated>2020-01-24T00:00:00-06:00</updated><id>http://localhost:4000/new-year</id><content type="html" xml:base="http://localhost:4000/2019/">&lt;p&gt;本来想写点武汉的，想了想写了也发不出去，算了。&lt;/p&gt;
+&lt;p&gt;原地址：https://www.zhihu.com/question/24305453/answer/1103830520&lt;/p&gt;</content><author><name></name></author><summary type="html">可算毕业了，盼了三年，心情真是相当激动。没错我是来劝退的。</summary></entry><entry><title type="html">写于武汉封城的当天：我的2019</title><link href="http://localhost:4000/2019/" rel="alternate" type="text/html" title="写于武汉封城的当天：我的2019" /><published>2020-01-24T00:00:00-08:00</published><updated>2020-01-24T00:00:00-08:00</updated><id>http://localhost:4000/new-year</id><content type="html" xml:base="http://localhost:4000/2019/">&lt;p&gt;本来想写点武汉的，想了想写了也发不出去，算了。&lt;/p&gt;
 
 &lt;p&gt;最近在重看 1984 和枪炮病菌钢铁，一语成谶。想写一写，还是怕发不出去。那就说说个人吧，社会话题太宏大了。&lt;/p&gt;
 
@@ -453,7 +621,7 @@ https://www.quora.com/What-should-be-the-flow-of-thoughts-in-a-statement-of-purp
 
 &lt;p&gt; &lt;/p&gt;
 
-&lt;p&gt;Yuan&lt;/p&gt;</content><author><name></name></author><summary type="html">本来想写点武汉的，想了想写了也发不出去，算了。</summary></entry><entry><title type="html">大三之前的一点emo</title><link href="http://localhost:4000/before-the-junior/" rel="alternate" type="text/html" title="大三之前的一点emo" /><published>2019-08-20T00:00:00-05:00</published><updated>2019-08-20T00:00:00-05:00</updated><id>http://localhost:4000/bye-beijing</id><content type="html" xml:base="http://localhost:4000/before-the-junior/">&lt;p&gt;好久没沉下心来写写东西，上一次还是高中毕业当晚，漫无目的填着词牌，写了删，删了改，孤独但自由。&lt;/p&gt;
+&lt;p&gt;Yuan&lt;/p&gt;</content><author><name></name></author><summary type="html">本来想写点武汉的，想了想写了也发不出去，算了。</summary></entry><entry><title type="html">大三之前的一点emo</title><link href="http://localhost:4000/before-the-junior/" rel="alternate" type="text/html" title="大三之前的一点emo" /><published>2019-08-20T00:00:00-07:00</published><updated>2019-08-20T00:00:00-07:00</updated><id>http://localhost:4000/bye-beijing</id><content type="html" xml:base="http://localhost:4000/before-the-junior/">&lt;p&gt;好久没沉下心来写写东西，上一次还是高中毕业当晚，漫无目的填着词牌，写了删，删了改，孤独但自由。&lt;/p&gt;
 
 &lt;p&gt;两年了，在留学第三年，第一次走前这么矫情。&lt;/p&gt;
 
