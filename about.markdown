@@ -6,9 +6,9 @@ permalink: /about/
 
 ## Me
 ### Current
-I am a software engineer at Google, working on the [privacy sandbox initiative on Android](https://privacysandbox.com/intl/en_us/android).
+I am a software engineer at Google, working on the [privacy sandbox initiative on Android](https://privacysandbox.com/intl/en_us/android). See more about my routine [here](/purpose).
 
-The other side of me: [motto, purpose, and motivation](/purpose).
+**If you know opportunities to build cool stuffs, please let me know.**
 
 ### Past
 You can find all my past titles on [LinkedIn](https://www.linkedin.com/in/gu-yuan/) or [resume](/assets/resume.pdf). Below are some of fun facts that I am particularly proud of:
