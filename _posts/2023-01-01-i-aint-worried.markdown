@@ -23,7 +23,9 @@ permalink: /2022/
 前一段时间看林书豪的一个采访，他说在勇士的时候是最难的，因为还没有证明过自己，你必须要打出好的表现才能有下一次上场的机会，所以压力很大。但林疯狂之后，打球就很从容了，因为不用想着再去证明什么了。
 
 2022, I ain't worried no more. <br>
-2023, to see more, to experience more, and to achieve more. Keep looking. Don't settle.
+2023, to see more, to experience more, and to achieve more.
+
+Keep looking. Don't settle.
 
 &nbsp;
 
