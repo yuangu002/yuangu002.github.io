@@ -26,5 +26,9 @@ This blog is completely personal. It stores all my writings across a variety of 
 
 I may migrate some of technical-related posts to [Medium](https://medium.com/@guyuan002) as I practice to become a better English writer, which is blank for now. :)
 
+<head>
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/51d47c3c267c5a41747b570fd/040c6f7c22254ea2b8b9fda24.js");</script>
+</head>
+
 ## Disclaimer
 Some BS red tape: opinions are my own blah blah blah...
