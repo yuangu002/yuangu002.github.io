@@ -23,5 +23,9 @@
           </div>
         </nav>
       {%- endif -%}
+
+      {% if site.tags != "" %}
+        {% include collecttags.html %}
+      {% endif %}
     </div>
   </header>

@@ -1,0 +1,2 @@
+I"Ú<p>IPC mechanism defines the communication protocol between processes in operating system. A design of such mechanism should reflect the principle that one process cannot access memory of another process without proper authorization. However, a successful OS ecosystem doesâ€™t want to confuse developers with low-level OS kernel details. In this article, I will explain how Android designs and implements their IPC with actionable examples to start experimenting with.</p>
+:ET

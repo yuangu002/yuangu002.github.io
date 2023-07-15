@@ -15,14 +15,27 @@ layout: default
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+          <h3 style="display: inline;">
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if post.description -%}
+            {{ post.description }}
+            {% else %}
+            {{ post.excerpt }}
+          {%- endif -%}
+          
+          {%- if post.tags.size > 0 -%}
+          <span class="post-tags">
+            [&nbsp;
+            {% for tag in post.tags %}
+              {% capture tag_name %}{{ tag }}{% endcapture %}
+              <a class="no-underline" href="/tag/{{ tag_name | replace: ' ', '_' }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>    
+            {% endfor %}
+            ]
+          </span>
+          {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
