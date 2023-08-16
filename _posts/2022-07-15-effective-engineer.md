@@ -2,7 +2,7 @@
 layout: post
 title:  "[Effective Engineer] Mindset (Part 1)"
 permalink: /effective-engineer/
-tags: cs-book tech-career productivity
+tags: books tech-career productivity
 ---
 
 [The Effective Engineer](https://www.effectiveengineer.com/book), written by Edmond Lau, is the Bible for software engineer. I summarize key points of this book (with minimal insights from me) and break it down into three major steps of practicing to become an effective engineer: adopting the right mindset, execute religiously, and build long-term value. This article is about part 1: the mindset.

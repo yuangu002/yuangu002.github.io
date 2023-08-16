@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: others"
-tag: others
+title: "Tag: china"
+tag: china
 robots: noindex
 ---

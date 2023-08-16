@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: cs-book"
-tag: cs-book
+title: "Tag: books"
+tag: books
 robots: noindex
 ---
