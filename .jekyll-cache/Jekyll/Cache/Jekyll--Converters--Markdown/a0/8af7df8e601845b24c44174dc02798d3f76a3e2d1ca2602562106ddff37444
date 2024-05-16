@@ -1,12 +1,10 @@
-I"^	<h2 id="me">Me</h2>
-<h3 id="current">Current</h3>
-<p>I am a software engineer at Google, working on the <a href="https://privacysandbox.com/intl/en_us/android">privacy sandbox initiative on Android</a>. See more about my routine <a href="/purpose">here</a>.</p>
-
-<p><strong>If you know opportunities to build cool stuffs, please <a href="mailto:guyuan002@gmail.com">let me know</a>.</strong></p>
+I"]<h3 id="current">Current</h3>
+<p>I am a software engineer at Google, Core ML. I work on auto-prompting tools for LLM developers. Previously, I was a part of the <a href="https://privacysandbox.com/intl/en_us/android">Android Privacy Sandbox</a> project. See more about my routine <a href="/purpose">here</a>.</p>
 
 <h3 id="past">Past</h3>
 <p>You can find all my past titles on <a href="https://www.linkedin.com/in/gu-yuan/">LinkedIn</a> or <a href="/assets/resume.pdf">resume</a>. Below are some of fun facts that I am particularly proud of:</p>
 <ul>
+  <li>I am an open-source contributor. At Google, I built frameworks and services for a system module in Android 13/14. At Cloudera, I contributed to the next-gen storage system, Apache Ozone, as a summer intern.</li>
   <li>I graduated <em>summa cum laude</em> in three years for bachelor’s degree, where I completed two majors in computer science and pure mathematics.</li>
   <li>I love teaching. I have been teaching English to Chinese high school students. In particular, I helped them prepare standardized tests (TOEFL/SAT) for their college application. I also teach computer science: I was a teaching assistant for <a href="https://www.cs.cmu.edu/~msakr/15619-f21/">CMU’s cloud computing course</a> in fall 2021.</li>
   <li>I love writing, in all forms. I won a Chinese national essay competition for 5 consecutive years. I was once a poet: I composed many Chinese traditional poems in middle school.</li>
@@ -19,11 +17,6 @@
   <li>If you happen to speak Chinese, I would rather go by 顾源. You can also find me on <a href="https://www.zhihu.com/people/gu-yuan-46-28">知乎</a> or <a href="https://www.douban.com/people/159427915/">豆瓣</a>.</li>
 </ul>
 
-<h2 id="this-blog">This blog</h2>
-<p>This blog is completely personal. It stores all my writings across a variety of topics. Technical posts are written in English, while non-technical posts in Chinese.</p>
-
-<p>I may migrate some of technical-related posts to <a href="https://medium.com/@guyuan002">Medium</a> as I practice to become a better English writer, which is blank for now. :)</p>
-
-<h2 id="disclaimer">Disclaimer</h2>
+<h3 id="disclaimer">Disclaimer</h3>
 <p>Some BS red tape: opinions are my own blah blah blah…</p>
 :ET

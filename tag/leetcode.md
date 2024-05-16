@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: android"
-tag: android
+title: "Tag: leetcode"
+tag: leetcode
 robots: noindex
 ---
