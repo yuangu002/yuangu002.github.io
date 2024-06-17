@@ -1,0 +1,168 @@
+I"�"<p>A continuation of <a href="/effective-engineer-2">[Effective Engineer] Execution (Part 2)</a>, this article of the series summarizes how to build long-term values over time.</p>
+
+<h2 id="chapter-8-balance-quality-with-pragmatism">[Chapter 8] Balance quality with pragmatism</h2>
+<p>The chapter discusses how to make tradeoffs between engineering quality and business reality in a variety of practices.</p>
+<h3 id="code-review">Code review</h3>
+<p>Pros:</p>
+<ul>
+  <li>Help identify bugs and design shortcoming early on.</li>
+  <li>Hold engineers accountable for any code change.</li>
+  <li>Set a positive model of good code by institutionalizing knowledge and conventions.</li>
+  <li>Foster shared ownership of code.</li>
+  <li>Better quality enables long-term development agility -&gt; faster iteration speed.</li>
+</ul>
+
+<p>Tradeoff:</p>
+<ul>
+  <li>It might harm short-term productivity under deadline pressure.</li>
+  <li>Only review core functionality logic.</li>
+  <li>Enforce automatec lint checking for coding style.</li>
+</ul>
+
+<h3 id="abstractions-infrastructure">Abstractions (infrastructure)</h3>
+<p>Pros:</p>
+<ul>
+  <li>Good infra only exposes a simple interface and abstracts away the underlying complexity, which makes developers focus on the core business logic.</li>
+  <li>Foster a more scalable, maintenance, and extensible codebase.</li>
+  <li>Don’t repeat yourself (DRY).</li>
+</ul>
+
+<p>Tradeoff:</p>
+<ul>
+  <li>It takes time to build a <strong>generic</strong> abstraction.</li>
+  <li>Focus on building abstractions for core functionalities.</li>
+  <li>Don’t overinvest: don’t create infra until you <strong>generalize the problem</strong>.</li>
+</ul>
+
+<p>What makes a good infra?</p>
+<ul>
+  <li>Easy to learn and use even without documentations</li>
+  <li>Hard to misuse.</li>
+</ul>
+
+<h3 id="automated-testing">Automated testing</h3>
+<p>Extensive unit tests + a few integration tests.</p>
+
+<p>Pros:</p>
+<ul>
+  <li>Smooth out error spikes after launch and reduce overall error rates by validating quality of new code and safeguarding old code against regression.</li>
+  <li>Make big code change confident.</li>
+  <li>In case of code break, it’s quick to identify who is accountable.</li>
+  <li>It’s the best documentation of how the original author intended to use the code.</li>
+</ul>
+
+<p>Tradeoff:</p>
+<ul>
+  <li>Don’t be obsess with 100% test coverage rate.</li>
+  <li>Balance it with iteration speed</li>
+  <li>Focus on high-leverage tests on core functionalities.</li>
+</ul>
+
+<h3 id="repay-tech-debt">Repay tech debt</h3>
+<p>Tech debt: deferred work that’s necessary to improve code health and quality.</p>
+<ul>
+  <li>Incur tech debt when necessary to adapt to the business reality.</li>
+  <li>Repay the debt periodically: set up a dedicated period of time once in a while.</li>
+  <li>Focus on core codebase in the finite time.</li>
+</ul>
+
+<h2 id="chapter-9-minimize-operation-burden">[Chapter 9] Minimize operation burden</h2>
+<p>What is operation burden?</p>
+<ul>
+  <li>Keep system up and running (deployment).</li>
+  <li>Keep up with trendy technologies like programming language or databases.</li>
+  <li>Scale the service to more users.</li>
+</ul>
+
+<h3 id="embrace-operational-simplicity">Embrace operational simplicity</h3>
+<p>A complex system:</p>
+<ul>
+  <li>introduces cross-functional team communication overheads.</li>
+  <li>introduces single point of failure (SPOF).</li>
+  <li>is hard to have new hires ramp up.</li>
+  <li>is hard to maintain its infra, which might be developed by xfn teams.</li>
+</ul>
+
+<p>Instead, do the simple thing first.</p>
+<ul>
+  <li>It’s okay to experiment with new technologies/infra, but think twice before productionizing it.</li>
+  <li>Most of the time, choose the more reliable and stable option, which has been well tested.</li>
+  <li>Don’t blindly scale the design to the distributed setting, which might not be necessary.</li>
+</ul>
+
+<h3 id="build-systems-that-fail-fast">Build systems that fail fast</h3>
+<ul>
+  <li>In case of any issue occurs, fails it immediately and visibly.</li>
+  <li>Don’t use workaround to delay or propogate failures.</li>
+  <li>Crash for the engineers, but handle it gracefully for end users.</li>
+  <li>Examples include: validating input arguments early on, bubbling up exceptions returned by an external service, etc.</li>
+</ul>
+
+<h3 id="automate-mechanical-tasks">Automate mechanical tasks</h3>
+<ul>
+  <li>Pay an upfront cost to automate tasks rather than patching a manual fix.</li>
+  <li>However, it’s much harder to automate decision-making (reasoning process) than mechanics (a sequence of actions).</li>
+  <li>Prefer automating mechanics and leave decision-making as later manual work.</li>
+  <li>The recent progress in LLMs might be a good alternative to automate the decision-making process?</li>
+</ul>
+
+<h3 id="make-batch-processes-idempotent">Make batch processes idempotent</h3>
+<ul>
+  <li>Make each action/process in the sequence produce the same result, no matter the process runs just once, or mnay times.</li>
+  <li>If not processed in a idempotent way, a failed action might leave side effects on subsequence actions.</li>
+</ul>
+
+<h3 id="plan-and-recover-from-failures-quickly">Plan and recover from failures quickly</h3>
+<ul>
+  <li>Many big tech companies periodically run “chaos test”, which simulates data center failures to attest the recoverability of their systems.</li>
+  <li>“Scripting for success”: make an exhaustive plan on each potential scenario rather than trying to prevent failures from happening at the first place.</li>
+  <li>The ability to plan and recover from failures can minimize the team’s pressure to a controllable level. Otherwise, the team can waste time on panicking and firefighting operational burden.</li>
+</ul>
+
+<h2 id="chapter-10-invest-in-teams-growth">[Chapter 10] Invest in team’s growth</h2>
+<h3 id="prioritize-hiring">Prioritize hiring</h3>
+<ul>
+  <li>Especially true for startup, because it’s very likely the new hire will be on your immediately team.</li>
+  <li>Very high-leverage activity: if you spend 2 hours per day for 20 days to secure a strong hire, your 40 hours can produce 2000 hours or more work by the new hire.</li>
+</ul>
+
+<h4 id="design-an-effective-interview-process">Design an effective interview process</h4>
+<ul>
+  <li>Technical screening on candidates.</li>
+  <li>A good opportunity to advertise the team mission and culture to candidates.</li>
+  <li>Optimize for questions with high signal-to-noise ratio: the question that can reveal useful information about the candidates (<em>signal</em>), with little irrelevant data (<em>noise</em>).</li>
+  <li>Keep the interview pace to maintain a high signal-to-noise ratio: give hints at appropriate timing so that candidates won’t be get stuck or sidetracked cluelessly.</li>
+  <li>Design questions with multiple layers of difficulty and easy to add or remove layer depending on real-time feedback from candidates.</li>
+</ul>
+
+<h3 id="design-an-onboarding-process">Design an onboarding process</h3>
+<ul>
+  <li>Direct new hires to learning and activities that are more aligned with the team’s priorities.</li>
+  <li>The candidate’s initial impression on the team is critical because <strong>learning compounds.</strong> The sooner they can ramp up, more <strong>exponentialy</strong> effective they can be in the future, which makes you and the team better in the long run.</li>
+</ul>
+
+<h4 id="a-few-specfic-onboarding-activities">A few specfic onboarding activities</h4>
+<ul>
+  <li>Codelab - user guide for abstractions.</li>
+  <li>Schedule onboarding talks on engineering practices and key abstractions.</li>
+  <li>Set up 1:1 mentorship program.</li>
+  <li>Have senior engineers design starter tasks for junior engineers to experience e2e development workflow ASAP.</li>
+</ul>
+
+<h3 id="shared-ownership-of-code">Shared ownership of code</h3>
+<p>If a senior engineer is the sole bottleneck on a module, they will lose the flexibility to work on other more high-leverage features than bug fix and maintenance. For junior engineers, they can use the shared ownership to ramp up quickly on the codebase.</p>
+
+<p>How to establish such shared ownership?</p>
+<ul>
+  <li>Code &amp; design review.</li>
+  <li>Rotate roles and tasks for all teammates.</li>
+  <li>Document everything, including high-level design, code-level comments, and any specific workaround solutions.</li>
+</ul>
+
+<h3 id="build-collective-wisdom-via-post-mortems">Build collective wisdom via post-mortems</h3>
+<ul>
+  <li>It’s not to assign blame; it’s to identify better solutions next time -&gt; scripting for success.</li>
+  <li>Make the emotional investment to hold an intellectually honest conversation.</li>
+  <li>Keep open-minded and receptive to feedbacks, even they are disturbing.</li>
+</ul>
+:ET

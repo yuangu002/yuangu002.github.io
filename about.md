@@ -5,11 +5,11 @@ permalink: /about/
 ---
 
 ### Current
-I am a software engineer at Google, Core ML. I work on auto-prompting tools for LLM developers. Previously, I was a part of the [Android Privacy Sandbox](https://privacysandbox.com/intl/en_us/android) project. See more about my routine [here](/purpose).
+I am a software engineer at Google, Core ML, where I build LLM-augmented tools to accelerate AI adoptions across teams at Google, with a focus on prompt optimization and AI agents. Before that, I was a part of the [Android Privacy Sandbox](https://privacysandbox.com/intl/en_us/android) project. See more about my routine [here](/purpose).
 
 ### Past
 You can find all my past titles on [LinkedIn](https://www.linkedin.com/in/gu-yuan/) or [resume](/assets/resume.pdf). Below are some of fun facts that I am particularly proud of:
-- I am an open-source contributor. At Google, I built frameworks and services for a system module in Android 13/14. At Cloudera, I contributed to the next-gen storage system, Apache Ozone, as a summer intern.
+- I am an open-source contributor. At Google, I built frameworks and services for a [system module](https://developers.google.com/privacy-sandbox/protections/on-device-personalization) in Android 13/14. At Cloudera, I contributed to the next-gen storage system, [Apache Ozone](https://ozone.apache.org/), as a summer intern.
 - I graduated *summa cum laude* in three years for bachelor's degree, where I completed two majors in computer science and pure mathematics.
 - I love teaching. I have been teaching English to Chinese high school students. In particular, I helped them prepare standardized tests (TOEFL/SAT) for their college application. I also teach computer science: I was a teaching assistant for [CMU's cloud computing course](https://www.cs.cmu.edu/~msakr/15619-f21/) in fall 2021.
 - I love writing, in all forms. I won a Chinese national essay competition for 5 consecutive years. I was once a poet: I composed many Chinese traditional poems in middle school.

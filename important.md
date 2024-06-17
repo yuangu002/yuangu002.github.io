@@ -18,7 +18,7 @@ My mottos:
 - Excellence means extra works
 - There is only one true heroism in the world: to see the world as it is, and to love it
 
-My monthly reading list (2024/05):
-- [MIT 6.824 Distributed Systems](https://pdos.csail.mit.edu/6.824/)
-- [Effective Engineer](https://www.effectiveengineer.com/book)
-- [DDIA](https://dataintensive.net/)
+My monthly reading list (2024/06):
+- Deep Work by Cal Newport
+- LangChain
+- [IIya's 30 papers](https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE)

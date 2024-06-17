@@ -130,3 +130,5 @@ Edmond provides an example that beginners can start off with.
 - Every morning, spend a few minutes planning: moving some items from **This week** to **Today**.
 - When you are free during the day or right before your "concentrated time block" starts, moving items from **Today** to **Doing**. Keep them short!
 - Monday morning/Sunday night, do a 30-minute review session to scope out **This week** section for this week and retrospect on items that were not executed well in the last week.
+
+Continue reading the next section: [[Effective Engineer] Execution (Part 2)](/effective-engineer-2)

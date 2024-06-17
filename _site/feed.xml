@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-16T14:15:35-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yuan Gu</title><subtitle>Carpe Diem, Seize the Day</subtitle><entry><title type="html">什么是 AI 时代的有效工程师？</title><link href="http://localhost:4000/software-engineer-thoughts/" rel="alternate" type="text/html" title="什么是 AI 时代的有效工程师？" /><published>2024-05-16T00:00:00-07:00</published><updated>2024-05-16T00:00:00-07:00</updated><id>http://localhost:4000/swe-future</id><content type="html" xml:base="http://localhost:4000/software-engineer-thoughts/">&lt;p&gt;想了很久的标题，既不想具体到个人的工作体验，也不想对 AI 做一些空洞的预言。于是引经据典，借用之前写过书评的 &lt;a href=&quot;/effective-engineer&quot;&gt;Effective Engineer&lt;/a&gt;，随便聊一聊这两年对软工行业的思考、经历、和认知。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-17T02:30:51-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yuan Gu</title><subtitle>Carpe Diem, Seize the Day</subtitle><entry><title type="html">什么是 AI 时代的高效工程师？</title><link href="http://localhost:4000/software-engineer-thoughts/" rel="alternate" type="text/html" title="什么是 AI 时代的高效工程师？" /><published>2024-05-16T00:00:00-07:00</published><updated>2024-05-16T00:00:00-07:00</updated><id>http://localhost:4000/swe-future</id><content type="html" xml:base="http://localhost:4000/software-engineer-thoughts/">&lt;p&gt;想了很久的标题，既不想具体到个人的工作体验，也不想对 AI 做一些空洞的预言。于是引经据典，借用之前写过书评的 &lt;a href=&quot;/effective-engineer&quot;&gt;Effective Engineer&lt;/a&gt;，随便聊一聊这两年对软工行业的思考、经历、和认知。&lt;/p&gt;
 
 &lt;p&gt;不成体系，笑骂由人。&lt;/p&gt;
 
@@ -8,7 +8,7 @@
 
 &lt;p&gt;一年之后，我准备跳槽，发现劳工市场和两年前已经发生了剧变。2024年3月，股市创下新高，但招聘市场非常冷淡，面试一份基础后端的工作都会有10年经验被裁的程序员来竞争，谷歌2023年1月那一波被裁员的人到现在还没找到同级别同薪水的工作。简单的观察就是，市场预期很好，但是公司好像不需要招很多人来维持预期。&lt;/p&gt;
 
-&lt;p&gt;带着对这位朋友的歉意，我写下这篇文章，认真回答他当年的问题：作为一个工程师，我如何定义“未来有效的工作”？&lt;/p&gt;
+&lt;p&gt;带着对这位朋友的歉意，我写下这篇文章，认真回答他当年的问题：作为一个工程师，我如何定义“未来有意义的工作”？&lt;/p&gt;
 
 &lt;h2 id=&quot;ai-是对通用智能的抽象&quot;&gt;AI 是对通用智能的抽象&lt;/h2&gt;
 &lt;p&gt;还在 CMU 读研的时候，我就在很多门课上听到一个共同的概念：抽象 (Abstraction)。操作系统是对计算机架构的抽象，云计算是对分布式资源的抽象，数据库是对文件系统的抽象，TCP/IP 是对信号的抽象…几乎每一节软件系统相关的课，最后的主题都会归结于抽象。上班之后，我对抽象有了更深的理解：MapReduce, Spanner, TensorFlow, 这些谷歌工程师的杰作，就是对各自商业问题的抽象。&lt;/p&gt;
@@ -19,7 +19,7 @@
 
 &lt;p&gt;如果我解释的很难懂，用陆奇老师的话说：大模型让获取智能的成本降低到几乎为零。而且这是一个不可逆转的过程，当人们习惯了谷歌地图的便利，没有人再回去买一张三美金的地图；同样，当人们认为大模型能给出比搜索更可靠更方便的结果，没有人会回到充满广告的搜索引擎。至于广告，他只是一种分蛋糕的把戏，只要蛋糕越做越大，在分蛋糕的问题上，后世子孙比我们更有智慧。&lt;/p&gt;
 
-&lt;h2 id=&quot;有效工程师是高质量的私有数据&quot;&gt;有效工程师是高质量的私有数据&lt;/h2&gt;
+&lt;h2 id=&quot;高效工程师是高质量的私有数据&quot;&gt;高效工程师是高质量的私有数据&lt;/h2&gt;
 &lt;p&gt;接着抽象的概念往下想，那么工程师和 AI 的关系是什么？用大模型的话说，工程师的专业知识是帮助基础模型做 &lt;a href=&quot;https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/&quot;&gt;RAG&lt;/a&gt; 的私有数据。用通俗的话说，工程师和其他职业的门槛会越变越模糊，如果说有一个共同点，那就是对某个商业问题要有深刻理解，实现商业问题的编程语言可以是 assembly，也可以是英语。&lt;/p&gt;
 
 &lt;p&gt;接下来可能是一个争议很大的观点，那就是我们经常说的 “generalist SWE”（通才软件工程师）会逐渐走进历史。大模型叫 foundation model 不是没有道理的，前面说过，基础模型是对通用知识的抽象，工程师的价值在于提供通用知识之外的见解，比如对某个传统行业的理解，比如基于模型的反馈进而做出的判断，又或者做一个某项专利技术的提供商。在 AI 发展的过程中，工程师会更多地体现团队里其他角色的技能，比如产品、营销、甚至法务，而不会再像今天一样，一个团队需要几个专门写不同模块代码的工程师：前端、后端、云端集成， etc. 注意，我并不是说 AI 能直接生成这些代码，而是在 AI 的帮助下，不同模块之间的“粘合”成本越来越低，低到一个应届毕业生即可胜任，毕竟软工里大部分的知识，都是通用知识。&lt;/p&gt;
@@ -28,7 +28,7 @@
 
 &lt;p&gt;最近看课代表和 Howie 徐老师做的一期访谈也是深有感触，就是 90% 的公司和 90% 的员工都在做着无意义的工作。以前的硅谷大厂有一个潜规则，就是公司与其让他们跑到竞争对手那里，不如花点钱招进来，安排一些意义不大的工作。但现在看来这个理论不是那么有说服力了，首先 Elon 裁了 Twitter 的 80%，Google/Meta 都裁了几轮，但并没有对 business 造成任何影响。虽然 Sundar 不可能像 Elon 那么疯狂，但把意义不大的维护工作外包给中国或者印度已经是共识了，班加罗尔的房价都因此涨了不少。&lt;/p&gt;
 
-&lt;p&gt;有效的工程师，就是找到那 10% 真正有意义、值得思考、可以产生杠杆级影响力的问题，然后在解决它的过程中不断学习、持续迭代。&lt;/p&gt;
+&lt;p&gt;高效的工程师，就是找到那 10% 真正有意义、值得思考、可以产生杠杆级影响力的问题，然后在解决它的过程中不断学习、持续迭代。&lt;/p&gt;
 
 &lt;p&gt;成为创业者 (entrepreneur)，而不是技师（technician）。&lt;/p&gt;
 
@@ -132,7 +132,173 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;最大的 bottleneck 是：目前（2023）很难找到愿意直接从国内面试你的公司。&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="life" /><category term="china" /><category term="zh" /><summary type="html">在网上陆陆续续看到了一些讲解，总感觉比较零碎。在此整理一些关于等绿卡排期期间如何长期回国再返美的 FAQ，本文仅适用于以下前提： 你的 I-140 申请已经被批准。 有 H1B 身份。</summary></entry><entry><title type="html">2022, I ain’t worried</title><link href="http://localhost:4000/2022/" rel="alternate" type="text/html" title="2022, I ain’t worried" /><published>2023-01-01T00:00:00-08:00</published><updated>2023-01-01T00:00:00-08:00</updated><id>http://localhost:4000/i-aint-worried</id><content type="html" xml:base="http://localhost:4000/2022/">&lt;p&gt;简单写个年终总结吧，作为一个春蕾杯连续五年得主，比起创作代码，传统的文字更适合我去表达。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;最大的 bottleneck 是：目前（2023）很难找到愿意直接从国内面试你的公司。&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="life" /><category term="china" /><category term="zh" /><summary type="html">在网上陆陆续续看到了一些讲解，总感觉比较零碎。在此整理一些关于等绿卡排期期间如何长期回国再返美的 FAQ，本文仅适用于以下前提： 你的 I-140 申请已经被批准。 有 H1B 身份。</summary></entry><entry><title type="html">[Effective Engineer] Long-term Value (Part 3)</title><link href="http://localhost:4000/effective-engineer-3/" rel="alternate" type="text/html" title="[Effective Engineer] Long-term Value (Part 3)" /><published>2023-04-03T00:00:00-07:00</published><updated>2023-04-03T00:00:00-07:00</updated><id>http://localhost:4000/effective-engineer-3</id><content type="html" xml:base="http://localhost:4000/effective-engineer-3/">&lt;p&gt;A continuation of &lt;a href=&quot;/effective-engineer-2&quot;&gt;[Effective Engineer] Execution (Part 2)&lt;/a&gt;, this article of the series summarizes how to build long-term values over time.&lt;/p&gt;
+
+&lt;h2 id=&quot;chapter-8-balance-quality-with-pragmatism&quot;&gt;[Chapter 8] Balance quality with pragmatism&lt;/h2&gt;
+&lt;p&gt;The chapter discusses how to make tradeoffs between engineering quality and business reality in a variety of practices.&lt;/p&gt;
+&lt;h3 id=&quot;code-review&quot;&gt;Code review&lt;/h3&gt;
+&lt;p&gt;Pros:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Help identify bugs and design shortcoming early on.&lt;/li&gt;
+  &lt;li&gt;Hold engineers accountable for any code change.&lt;/li&gt;
+  &lt;li&gt;Set a positive model of good code by institutionalizing knowledge and conventions.&lt;/li&gt;
+  &lt;li&gt;Foster shared ownership of code.&lt;/li&gt;
+  &lt;li&gt;Better quality enables long-term development agility -&amp;gt; faster iteration speed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tradeoff:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;It might harm short-term productivity under deadline pressure.&lt;/li&gt;
+  &lt;li&gt;Only review core functionality logic.&lt;/li&gt;
+  &lt;li&gt;Enforce automatec lint checking for coding style.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;abstractions-infrastructure&quot;&gt;Abstractions (infrastructure)&lt;/h3&gt;
+&lt;p&gt;Pros:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Good infra only exposes a simple interface and abstracts away the underlying complexity, which makes developers focus on the core business logic.&lt;/li&gt;
+  &lt;li&gt;Foster a more scalable, maintenance, and extensible codebase.&lt;/li&gt;
+  &lt;li&gt;Don’t repeat yourself (DRY).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tradeoff:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;It takes time to build a &lt;strong&gt;generic&lt;/strong&gt; abstraction.&lt;/li&gt;
+  &lt;li&gt;Focus on building abstractions for core functionalities.&lt;/li&gt;
+  &lt;li&gt;Don’t overinvest: don’t create infra until you &lt;strong&gt;generalize the problem&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What makes a good infra?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Easy to learn and use even without documentations&lt;/li&gt;
+  &lt;li&gt;Hard to misuse.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;automated-testing&quot;&gt;Automated testing&lt;/h3&gt;
+&lt;p&gt;Extensive unit tests + a few integration tests.&lt;/p&gt;
+
+&lt;p&gt;Pros:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Smooth out error spikes after launch and reduce overall error rates by validating quality of new code and safeguarding old code against regression.&lt;/li&gt;
+  &lt;li&gt;Make big code change confident.&lt;/li&gt;
+  &lt;li&gt;In case of code break, it’s quick to identify who is accountable.&lt;/li&gt;
+  &lt;li&gt;It’s the best documentation of how the original author intended to use the code.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tradeoff:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Don’t be obsess with 100% test coverage rate.&lt;/li&gt;
+  &lt;li&gt;Balance it with iteration speed&lt;/li&gt;
+  &lt;li&gt;Focus on high-leverage tests on core functionalities.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;repay-tech-debt&quot;&gt;Repay tech debt&lt;/h3&gt;
+&lt;p&gt;Tech debt: deferred work that’s necessary to improve code health and quality.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Incur tech debt when necessary to adapt to the business reality.&lt;/li&gt;
+  &lt;li&gt;Repay the debt periodically: set up a dedicated period of time once in a while.&lt;/li&gt;
+  &lt;li&gt;Focus on core codebase in the finite time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chapter-9-minimize-operation-burden&quot;&gt;[Chapter 9] Minimize operation burden&lt;/h2&gt;
+&lt;p&gt;What is operation burden?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Keep system up and running (deployment).&lt;/li&gt;
+  &lt;li&gt;Keep up with trendy technologies like programming language or databases.&lt;/li&gt;
+  &lt;li&gt;Scale the service to more users.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;embrace-operational-simplicity&quot;&gt;Embrace operational simplicity&lt;/h3&gt;
+&lt;p&gt;A complex system:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;introduces cross-functional team communication overheads.&lt;/li&gt;
+  &lt;li&gt;introduces single point of failure (SPOF).&lt;/li&gt;
+  &lt;li&gt;is hard to have new hires ramp up.&lt;/li&gt;
+  &lt;li&gt;is hard to maintain its infra, which might be developed by xfn teams.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Instead, do the simple thing first.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;It’s okay to experiment with new technologies/infra, but think twice before productionizing it.&lt;/li&gt;
+  &lt;li&gt;Most of the time, choose the more reliable and stable option, which has been well tested.&lt;/li&gt;
+  &lt;li&gt;Don’t blindly scale the design to the distributed setting, which might not be necessary.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;build-systems-that-fail-fast&quot;&gt;Build systems that fail fast&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;In case of any issue occurs, fails it immediately and visibly.&lt;/li&gt;
+  &lt;li&gt;Don’t use workaround to delay or propogate failures.&lt;/li&gt;
+  &lt;li&gt;Crash for the engineers, but handle it gracefully for end users.&lt;/li&gt;
+  &lt;li&gt;Examples include: validating input arguments early on, bubbling up exceptions returned by an external service, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;automate-mechanical-tasks&quot;&gt;Automate mechanical tasks&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pay an upfront cost to automate tasks rather than patching a manual fix.&lt;/li&gt;
+  &lt;li&gt;However, it’s much harder to automate decision-making (reasoning process) than mechanics (a sequence of actions).&lt;/li&gt;
+  &lt;li&gt;Prefer automating mechanics and leave decision-making as later manual work.&lt;/li&gt;
+  &lt;li&gt;The recent progress in LLMs might be a good alternative to automate the decision-making process?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;make-batch-processes-idempotent&quot;&gt;Make batch processes idempotent&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Make each action/process in the sequence produce the same result, no matter the process runs just once, or mnay times.&lt;/li&gt;
+  &lt;li&gt;If not processed in a idempotent way, a failed action might leave side effects on subsequence actions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;plan-and-recover-from-failures-quickly&quot;&gt;Plan and recover from failures quickly&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Many big tech companies periodically run “chaos test”, which simulates data center failures to attest the recoverability of their systems.&lt;/li&gt;
+  &lt;li&gt;“Scripting for success”: make an exhaustive plan on each potential scenario rather than trying to prevent failures from happening at the first place.&lt;/li&gt;
+  &lt;li&gt;The ability to plan and recover from failures can minimize the team’s pressure to a controllable level. Otherwise, the team can waste time on panicking and firefighting operational burden.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chapter-10-invest-in-teams-growth&quot;&gt;[Chapter 10] Invest in team’s growth&lt;/h2&gt;
+&lt;h3 id=&quot;prioritize-hiring&quot;&gt;Prioritize hiring&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Especially true for startup, because it’s very likely the new hire will be on your immediately team.&lt;/li&gt;
+  &lt;li&gt;Very high-leverage activity: if you spend 2 hours per day for 20 days to secure a strong hire, your 40 hours can produce 2000 hours or more work by the new hire.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;design-an-effective-interview-process&quot;&gt;Design an effective interview process&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Technical screening on candidates.&lt;/li&gt;
+  &lt;li&gt;A good opportunity to advertise the team mission and culture to candidates.&lt;/li&gt;
+  &lt;li&gt;Optimize for questions with high signal-to-noise ratio: the question that can reveal useful information about the candidates (&lt;em&gt;signal&lt;/em&gt;), with little irrelevant data (&lt;em&gt;noise&lt;/em&gt;).&lt;/li&gt;
+  &lt;li&gt;Keep the interview pace to maintain a high signal-to-noise ratio: give hints at appropriate timing so that candidates won’t be get stuck or sidetracked cluelessly.&lt;/li&gt;
+  &lt;li&gt;Design questions with multiple layers of difficulty and easy to add or remove layer depending on real-time feedback from candidates.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;design-an-onboarding-process&quot;&gt;Design an onboarding process&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Direct new hires to learning and activities that are more aligned with the team’s priorities.&lt;/li&gt;
+  &lt;li&gt;The candidate’s initial impression on the team is critical because &lt;strong&gt;learning compounds.&lt;/strong&gt; The sooner they can ramp up, more &lt;strong&gt;exponentially&lt;/strong&gt; effective they can be over time, which makes you and the team better in the long run.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;a-few-specfic-onboarding-activities&quot;&gt;A few specfic onboarding activities&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Codelab - user guide for abstractions.&lt;/li&gt;
+  &lt;li&gt;Schedule onboarding talks on engineering practices and key abstractions.&lt;/li&gt;
+  &lt;li&gt;Set up 1:1 mentorship program.&lt;/li&gt;
+  &lt;li&gt;Have senior engineers design starter tasks for junior engineers to experience e2e development workflow ASAP.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;shared-ownership-of-code&quot;&gt;Shared ownership of code&lt;/h3&gt;
+&lt;p&gt;If a senior engineer is the sole bottleneck on a module, they will lose the flexibility to work on other more high-leverage features than bug fix and maintenance. For junior engineers, they can use the shared ownership to ramp up quickly on the codebase.&lt;/p&gt;
+
+&lt;p&gt;How to establish such shared ownership?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Code &amp;amp; design review.&lt;/li&gt;
+  &lt;li&gt;Rotate roles and tasks for all teammates.&lt;/li&gt;
+  &lt;li&gt;Document everything, including high-level design, code-level comments, and any specific workaround solutions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;build-collective-wisdom-via-post-mortems&quot;&gt;Build collective wisdom via post-mortems&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;It’s not to assign blame; it’s to identify better solutions next time -&amp;gt; scripting for success.&lt;/li&gt;
+  &lt;li&gt;Make the emotional investment to hold an intellectually honest conversation.&lt;/li&gt;
+  &lt;li&gt;Keep open-minded and receptive to feedbacks, even they are disturbing.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="books" /><category term="tech-career" /><category term="productivity" /><summary type="html">A continuation of [Effective Engineer] Execution (Part 2), this article of the series summarizes how to build long-term values over time.</summary></entry><entry><title type="html">2022, I ain’t worried</title><link href="http://localhost:4000/2022/" rel="alternate" type="text/html" title="2022, I ain’t worried" /><published>2023-01-01T00:00:00-08:00</published><updated>2023-01-01T00:00:00-08:00</updated><id>http://localhost:4000/i-aint-worried</id><content type="html" xml:base="http://localhost:4000/2022/">&lt;p&gt;简单写个年终总结吧，作为一个春蕾杯连续五年得主，比起创作代码，传统的文字更适合我去表达。&lt;/p&gt;
 
 &lt;p&gt;不觉得自己是个能欣赏音乐的人，除了 2019 年听过一些 MGK 的 diss track，我的歌单里几乎没有英文歌，但 OneRepublic 却是个例外：今年的 I ain’t worried 又成了我最喜欢的新歌。2022，用这首歌来概括，再合适不过了。&lt;/p&gt;
 
@@ -157,7 +323,178 @@
 
 &lt;p&gt; &lt;/p&gt;
 
-&lt;p&gt;Yuan&lt;/p&gt;</content><author><name></name></author><category term="new-year" /><category term="memory" /><category term="high-school" /><category term="undergrad" /><category term="zh" /><summary type="html">简单写个年终总结吧，作为一个春蕾杯连续五年得主，比起创作代码，传统的文字更适合我去表达。</summary></entry><entry><title type="html">24岁，祝我生日快乐</title><link href="http://localhost:4000/24/" rel="alternate" type="text/html" title="24岁，祝我生日快乐" /><published>2022-10-08T00:00:00-07:00</published><updated>2022-10-08T00:00:00-07:00</updated><id>http://localhost:4000/hbd</id><content type="html" xml:base="http://localhost:4000/24/">&lt;p&gt;这是我 18 岁之后，第一次给自己放个假过生日。&lt;/p&gt;
+&lt;p&gt;Yuan&lt;/p&gt;</content><author><name></name></author><category term="new-year" /><category term="memory" /><category term="high-school" /><category term="undergrad" /><category term="zh" /><summary type="html">简单写个年终总结吧，作为一个春蕾杯连续五年得主，比起创作代码，传统的文字更适合我去表达。</summary></entry><entry><title type="html">[Effective Engineer] Execution (Part 2)</title><link href="http://localhost:4000/effective-engineer-2/" rel="alternate" type="text/html" title="[Effective Engineer] Execution (Part 2)" /><published>2022-10-29T00:00:00-07:00</published><updated>2022-10-29T00:00:00-07:00</updated><id>http://localhost:4000/effective-engineer-2</id><content type="html" xml:base="http://localhost:4000/effective-engineer-2/">&lt;p&gt;A continuation of &lt;a href=&quot;/effective-engineer&quot;&gt;[Effective Engineer] Mindset (Part 1)&lt;/a&gt;, this article of the series focuses on execution techniques that help enforce those mindsets.&lt;/p&gt;
+
+&lt;h2 id=&quot;chapter-4-accelerate-iteration-speed&quot;&gt;[Chapter 4] Accelerate iteration speed&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;The faster you can iterate, the more that you can learn what works and what doesn’t.&lt;/li&gt;
+  &lt;li&gt;Because learning compounds, the sooner you iterate fast, the faster your learning rate is.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;continuous-deployment&quot;&gt;Continuous Deployment&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Help engineers make small, incremental changes rather than large features.&lt;/li&gt;
+  &lt;li&gt;When making small changes, it helps trace down bugs and enforce fine-grained A/B testing.&lt;/li&gt;
+  &lt;li&gt;Gated large feature behind a configuration flag.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;investing-in-time-saving-tools&quot;&gt;Investing in time-saving tools.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Faster compilation cycle shorten the validation loops when writing code.&lt;/li&gt;
+  &lt;li&gt;Using REPL (read-eval-print loop) to verify expressions in an interactive programming environment.&lt;/li&gt;
+  &lt;li&gt;Invest in those tools early on with a potential upfront cost rather than pay the tax every iteration.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;shorten-debugging-and-validation-loop&quot;&gt;Shorten debugging and validation loop&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Make a minimal, reproducible test case that triggers the bugs with only necessary configs.&lt;/li&gt;
+  &lt;li&gt;Test and debug with a tight feedback loop.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;master-programming-environment&quot;&gt;Master programming environment&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Get proficient with text editors and IDE (code reformatting, navigating, version control, etc).&lt;/li&gt;
+  &lt;li&gt;Be expert in at least one high-level language with powerful built-in abstractions (Python over Java, C/C++).&lt;/li&gt;
+  &lt;li&gt;Get familiar with Linux shell commands.&lt;/li&gt;
+  &lt;li&gt;Keyboard over mouse.&lt;/li&gt;
+  &lt;li&gt;Run unit tests that only associated with your changes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;unblock-non-engineering-bottlenecks&quot;&gt;Unblock non-engineering bottlenecks&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Dependency upon other teams: overcommunicate to align with priorities.&lt;/li&gt;
+  &lt;li&gt;How to obtain approval from senior leadership: use informal coffee chat/office hour to build relationship over time.&lt;/li&gt;
+  &lt;li&gt;Review process from PM/legal: plan ahead.&lt;/li&gt;
+  &lt;li&gt;Some of these are out of engineer’s control, so some companies set up the role of TPMs to help cross-team communications.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chapter-5-measure-what-you-want-to-improve&quot;&gt;[Chapter 5] Measure what you want to improve&lt;/h2&gt;
+&lt;p&gt;Engineers should relentlessly measure and quantify metrics to improve product quality.&lt;/p&gt;
+
+&lt;h3 id=&quot;use-metrics-to-drive-progress&quot;&gt;Use metrics to drive progress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Focus on right things. Metrics confirm that your product changes actually achieve your objectives.&lt;/li&gt;
+  &lt;li&gt;Help guard against future regressions.&lt;/li&gt;
+  &lt;li&gt;Drive forward progress. Make sure the thing that you are optimizing is going at the right direction.&lt;/li&gt;
+  &lt;li&gt;Measure the effectiveness, compare the leverage against other activities, and prioritize accordingly. See &lt;a href=&quot;/effective-engineer&quot;&gt;prioritization&lt;/a&gt; section.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pick-the-right-metrics&quot;&gt;Pick the right metrics&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Maximize impact: profit per &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; in economics, etc.&lt;/li&gt;
+  &lt;li&gt;Actionable: use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rate/percentage&lt;/code&gt; over &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gross/total&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Responsive yet robust: Updates quickly enough to give feedback over a period of time. Example: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xxx&lt;/code&gt; over the last week is more responsive than over the last month, while more rebust than over the last hour.&lt;/li&gt;
+  &lt;li&gt;In terms of team management, engineers can also pick some metrics over the other:
+    &lt;ol&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Productivity per week&lt;/code&gt; over &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hours per week&lt;/code&gt;: Long working hours decreases productivity, resulting in “undertime”.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Outstanding bug fixed&lt;/code&gt; over &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Total bug fixed&lt;/code&gt;: Prioritize impactful bugs over trivial bugs.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;instrument-the-system&quot;&gt;Instrument the system&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Metric is top-level strategy; instrumentation is low-level implementation detail.&lt;/li&gt;
+  &lt;li&gt;More instrumentations provides better visibility of the system.&lt;/li&gt;
+  &lt;li&gt;Create dashboard to visualize instrumentations over time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;internalize-common-numbers&quot;&gt;Internalize common numbers&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Keep the table at hand: &lt;a href=&quot;https://gist.github.com/jboner/2841832&quot;&gt;Latency numbers that every engineer should know.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;These back-of-the-envelop calculations can quickly estimate performance metrics of your design.&lt;/li&gt;
+  &lt;li&gt;Help spot anomalies in data measurements.&lt;/li&gt;
+  &lt;li&gt;Common useful numbers can benchmark your current design and scope for improvements.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;prioritize-data-integrity&quot;&gt;Prioritize data integrity&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Log the accurate, unbiased data. Wrong data is worse than no data.&lt;/li&gt;
+  &lt;li&gt;Usually metrics-related code is less robust than feature code.&lt;/li&gt;
+  &lt;li&gt;Be skeptical about data integrity: Data can get dropped in network traffic, bugs in data collection pipelines or dashboard, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chapter-6-validate-ideas-early-and-often&quot;&gt;[Chapter 6] Validate ideas early and often&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Optimize for feedback ASAP helps get &lt;em&gt;right&lt;/em&gt; things done.&lt;/li&gt;
+  &lt;li&gt;Resonate with a more recent idea: &lt;a href=&quot;https://publiclab.co/build-in-public&quot;&gt;build in public&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;find-low-effort-ways-to-validate-the-work&quot;&gt;Find low-effort ways to validate the work&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Identify the scariest, the riskiest, the most uncertain part of the project, and validate it first.&lt;/li&gt;
+  &lt;li&gt;Build a MVP/prototype: the version of a product that allows a team to collect &lt;em&gt;maximum&lt;/em&gt; amount of &lt;em&gt;validated&lt;/em&gt; learning about customers with the &lt;em&gt;least&lt;/em&gt; effort.&lt;/li&gt;
+  &lt;li&gt;The MVP can be creative. Dropbox “fakes” a placeholder button for Google account login and monitors its click-through rate, to validate whether the feature can gain tractions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;continuously-validate-product-changes-via-ab-testing&quot;&gt;Continuously validate product changes via A/B testing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;A random subset of users see a change, while everyone else doesn’t.&lt;/li&gt;
+  &lt;li&gt;Using variable control, A/B testing validates that any significant change in metrics can be solely attributed to the product change.&lt;/li&gt;
+  &lt;li&gt;A/B testing turns the black box of of user behavior into understandable, actionable knowledge.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;beware-the-one-person-team&quot;&gt;Beware the one-person team&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Leverage design doc, code reviews, or informal coffee chat to keep other engineers aware of your progress.&lt;/li&gt;
+  &lt;li&gt;Keep code changes small and incremental.&lt;/li&gt;
+  &lt;li&gt;Design API interface/protobuf first to surface early issues.&lt;/li&gt;
+  &lt;li&gt;Solicit buy-in with conversations for large features.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;build-feedback-loop-for-any-decision&quot;&gt;Build feedback loop for any decision&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Formulate a hypothesis, design an experiment to test it, define metrics, run the experiments, learn from the results.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chapter-7-improve-project-estimation-skills&quot;&gt;[Chapter 7] Improve project estimation skills&lt;/h2&gt;
+
+&lt;h3 id=&quot;use-accurate-estimates-to-drive-project-planning&quot;&gt;Use accurate estimates to drive project planning&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Keep the deadline constant and deliver what is possible.&lt;/li&gt;
+  &lt;li&gt;Decompose the project into granular tasks.&lt;/li&gt;
+  &lt;li&gt;Set a hard deadline for minimal delivery and an internal deadline for stretch goals.&lt;/li&gt;
+  &lt;li&gt;While one engineer can finish one task, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;n&lt;/code&gt; engineers can’t deliver &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;n&lt;/code&gt; tasks with the same efficiency because of communication overhead, new hire ramp-up, etc.&lt;/li&gt;
+  &lt;li&gt;Once you have an estimate, validate it against historical data.&lt;/li&gt;
+  &lt;li&gt;Use timeboxing to restrict with open-ended tasks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;budget-for-the-unknown&quot;&gt;Budget for the unknown&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;There are always uncertain problems that we fail to account for when estimating. Several minor yet unexpected tasks compound and wreak havoc with the schedule.&lt;/li&gt;
+  &lt;li&gt;Separate effective work time from total calendar time, as many non-engineering duties may slip in. When setting schedules, build in buffer time for the unexpected interruptions.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1 engineering day = 2 calendar days&lt;/code&gt; is a ballpark benchmark.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;define-specific-goals-and-measurable-milestones&quot;&gt;Define specific goals and measurable milestones&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;A well-defined goal helps scope the project: separate must-haves from nice-to-haves.&lt;/li&gt;
+  &lt;li&gt;It also builds clarity and alignment across key stakeholders.&lt;/li&gt;
+  &lt;li&gt;A concrete milestone keeps the team honest and tracks current progress. Rather than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;almost done&lt;/code&gt;, a measurable milestone looks like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;features X, Y, Z by a completion date&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reduce-risks-early&quot;&gt;Reduce risks early&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;A common risk is system integration, where functional subsystems are integrated together but fails as a whole.&lt;/li&gt;
+  &lt;li&gt;Build an end-to-end scaffolding (skeleton) and test it early on.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dont-sprint-in-the-middle-of-marathon&quot;&gt;Don’t sprint in the middle of marathon&lt;/h3&gt;
+&lt;h4 id=&quot;working-overtime-doesnt-produce-linear-impact&quot;&gt;Working overtime doesn’t produce linear impact&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Productivity decreases with additional hours worked&lt;/li&gt;
+  &lt;li&gt;When you realize you can’t make the deadline, you are more behind schedule than you think, because you likely underestimated the entire projects, not just the previous months.&lt;/li&gt;
+  &lt;li&gt;Working extra hours can burn out team members and hurt team morale.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;working-overtime-can-be-used-as-a-compromised-option-if-you&quot;&gt;Working overtime can be used as a compromised option, if you:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Communicate with the team on why working overtime is necessary.&lt;/li&gt;
+  &lt;li&gt;Revise the plan and schedule to adapt to the new reality.&lt;/li&gt;
+  &lt;li&gt;By any means, it’s not an excuse for not practicing project estimation skills.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Continue reading the next section: &lt;a href=&quot;/effective-engineer-3&quot;&gt;[Effective Engineer] Long-term Value (Part 3)&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="books" /><category term="tech-career" /><category term="productivity" /><summary type="html">A continuation of [Effective Engineer] Mindset (Part 1), this article of the series focuses on execution techniques that help enforce those mindsets.</summary></entry><entry><title type="html">24岁，祝我生日快乐</title><link href="http://localhost:4000/24/" rel="alternate" type="text/html" title="24岁，祝我生日快乐" /><published>2022-10-08T00:00:00-07:00</published><updated>2022-10-08T00:00:00-07:00</updated><id>http://localhost:4000/hbd</id><content type="html" xml:base="http://localhost:4000/24/">&lt;p&gt;这是我 18 岁之后，第一次给自己放个假过生日。&lt;/p&gt;
 
 &lt;p&gt;尤其是 20 岁之后的这几年，我甚至开始刻意回避过生日这个话题了，因为每一次的生日，都在提醒自己又大了一岁。这种感觉，一年比一年压抑。&lt;/p&gt;
 
@@ -360,7 +697,9 @@
   &lt;li&gt;Every morning, spend a few minutes planning: moving some items from &lt;strong&gt;This week&lt;/strong&gt; to &lt;strong&gt;Today&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;When you are free during the day or right before your “concentrated time block” starts, moving items from &lt;strong&gt;Today&lt;/strong&gt; to &lt;strong&gt;Doing&lt;/strong&gt;. Keep them short!&lt;/li&gt;
   &lt;li&gt;Monday morning/Sunday night, do a 30-minute review session to scope out &lt;strong&gt;This week&lt;/strong&gt; section for this week and retrospect on items that were not executed well in the last week.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="books" /><category term="tech-career" /><category term="productivity" /><summary type="html">The Effective Engineer, written by Edmond Lau, is the Bible for software engineer. I summarize key points of this book (with minimal insights from me) and break it down into three major steps of practicing to become an effective engineer: adopting the right mindset, execute religiously, and build long-term value. This article is about part 1: the mindset.</summary></entry><entry><title type="html">起飞前随便写写</title><link href="http://localhost:4000/2022/06/19/random.html" rel="alternate" type="text/html" title="起飞前随便写写" /><published>2022-06-19T00:00:00-07:00</published><updated>2022-06-19T00:00:00-07:00</updated><id>http://localhost:4000/2022/06/19/random</id><content type="html" xml:base="http://localhost:4000/2022/06/19/random.html">&lt;p&gt;大一之后就像做了一场梦，时间过得已经没有了时间的概念，好像人生就只剩下了事业和证明，好像高中的梦想过于单纯，好像我没有选择过，只是被生活推着走，踽踽独行。&lt;/p&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Continue reading the next section: &lt;a href=&quot;/effective-engineer-2&quot;&gt;[Effective Engineer] Execution (Part 2)&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="books" /><category term="tech-career" /><category term="productivity" /><summary type="html">The Effective Engineer, written by Edmond Lau, is the Bible for software engineer. I summarize key points of this book (with minimal insights from me) and break it down into three major steps of practicing to become an effective engineer: adopting the right mindset, execute religiously, and build long-term value. This article is about part 1: the mindset.</summary></entry><entry><title type="html">起飞前随便写写</title><link href="http://localhost:4000/2022/06/19/random.html" rel="alternate" type="text/html" title="起飞前随便写写" /><published>2022-06-19T00:00:00-07:00</published><updated>2022-06-19T00:00:00-07:00</updated><id>http://localhost:4000/2022/06/19/random</id><content type="html" xml:base="http://localhost:4000/2022/06/19/random.html">&lt;p&gt;大一之后就像做了一场梦，时间过得已经没有了时间的概念，好像人生就只剩下了事业和证明，好像高中的梦想过于单纯，好像我没有选择过，只是被生活推着走，踽踽独行。&lt;/p&gt;
 
 &lt;p&gt;上一次来波士顿是大一上学期的 final weeks，去 BU 和 Brandeis 找了朋友，final weeks 出来玩儿是因为在威廉斯堡快要炸了，找不到情绪的发泄出口。实话说那个时候很迷茫，不再想学IR了，可是也不确定要转什么专业，更不确定能不能学好计算机这种从来没有碰过的东西。&lt;/p&gt;
 
@@ -396,183 +735,4 @@
 &lt;p&gt; &lt;/p&gt;
 
 &lt;p&gt;Yuan
-2022.3.14 @ Shanghai&lt;/p&gt;</content><author><name></name></author><category term="memory" /><category term="airport-writing" /><category term="zh" /><summary type="html">我自认为我是相当没有仪式感的一个人，过年过节、过生日、实习、毕业、入职。。。人生种种的关键节点，从来没停下来 emo 过。但惟独每次要回美国的时候，在机场拥抱告别，看飞机滑行降落，心里总有一些话想说，大概这就是“多情自古伤离别”罢。</summary></entry><entry><title type="html">我在 CMU 学到了什么？</title><link href="http://localhost:4000/cmu-master/" rel="alternate" type="text/html" title="我在 CMU 学到了什么？" /><published>2022-02-23T00:00:00-08:00</published><updated>2022-02-23T00:00:00-08:00</updated><id>http://localhost:4000/cmu-master</id><content type="html" xml:base="http://localhost:4000/cmu-master/">&lt;p&gt;刚刚收到了从 CMU 寄到北京的毕业证，我这个人比较浅薄，实在没有做科研的伟大志向，所以硕士应该是我学生时代的结尾了。回想起两年前举足无措的自己，CMU 确实是给了我一个更高的平台，得到了很多在 wm 不可能得到的机会，并且在毕业的时候拿到了 6 个 全职 offer，&lt;a href=&quot;/ng-ft-swe&quot;&gt;找工作的过程&lt;/a&gt;也非常顺利，甚至单单用 CMU 这个 title 就可以拿到面试。经济方面，从2020年8月到2021年12月，这一年半也不算拮据，不像在 wm 一样出了车祸连 2500 的 deductible 都拿不出来，一共两万多奖学金，加上暑假实习和 TA 的钱，几乎 cover 了一大半的学费，所以总体来说，我对 CMU 确实很感激。&lt;/p&gt;
-
-&lt;center&gt;
-    &lt;img style=&quot;border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&quot; src=&quot;/assets/diplomas.JPG&quot; /&gt;
-    &lt;br /&gt;
-    &lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;&quot;&gt;再见了，学生时代&lt;/div&gt;
-&lt;/center&gt;
-
-&lt;p&gt;但人吧，就是很矫情。我总觉得硕士，尤其是计算机硕士，作为一个 terminal degree（不往上读博士了）是一个很亏本的买卖。尤其是对于美本 CS 来讲，本科毕业也可以拿到大厂的 entry level（比如 Google L3），那么硕士的意义就显得很鸡肋。虽然 CMU 的课程确实很好，比如 Cloud/Database/Storage 这三门课，让我终于理解了什么是 Scale，以及如何去设计一个数据密集型的系统，但课程总归是学术的，而我也非常清楚我是一定要去工业界的，加上 INI 有几门很傻逼的课程（说的就是 740），让刚刚毕业的我确实发了点牢骚，认为这一年半进步不是很大。我甚至天真地想，如果没有读研，那我21岁的时候就可以是全职工程师了，当然前提是本科毕业的时候能找到好工作。&lt;/p&gt;
-
-&lt;p&gt;但静下心来仔细想想，还是得承认 CMU 带给我的改变。&lt;/p&gt;
-
-&lt;h3 id=&quot;对计算机系统的理解&quot;&gt;对计算机系统的理解&lt;/h3&gt;
-&lt;p&gt;虽然是计算机科班，但我这个科班实在是很业余。首先是 wm 的计算机系非常不成体系，东一榔头西一棒子，到毕业了我都没理解计算机里最重要的 client-server model 怎么运作，对于数据库，网络和并行计算这些高级一点的知识，连最基本的概念都没有。再有就是因为三年毕业，第二年才转 CS，还有 math double major，CS 上课其实上的非常赶。18年刚刚转行，都是在上数据结构和算法这些入门课。19年 spring 为了赶毕业进度上了四门数学课，19年 fall 又连着 4 门 CS 课，20年 spring 拿到录取了，所以一整个学期都放羊了。这样看来，其实在 wm 三年并没有对计算机有一个全面的理解，我甚至快毕业了还有一个问题：为啥要有数据库这种东西啊？直接用 HashMap 不就好了么？&lt;/p&gt;
-
-&lt;p&gt;虽然这个问题现在看很傻逼，但至少说明了几点：&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;尽管学了 304，我没有彻底理解什么是 memory，更搞不清楚各种储存介质的 access time 和 cost，就是那个经典的金字塔模型，至于在实际系统设计的时候的 tradeoff，想都没有想到过。&lt;/li&gt;
-  &lt;li&gt;我对 volatile 和 non-volatile storage 没有概念，现在想想用户的数据要储存在内存里就很可怕。&lt;/li&gt;
-  &lt;li&gt;我对 Scale 一无所知，我以为一台电脑足以储存整个app的用户信息。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;SCS 的各种 system 课上下来，这些知识已经内化成了常识，所以我才会有一种本科毕业就 qualified as an engineer 的错觉。就算是凭着不错的算法能力能拿到 offer，对高并发系统的缺乏理解注定了在职业发展上非常受限。很不幸的是，wm 没有分布式系统甚至数据库的课程，304 和 OS 讲的也是单机系统，不涉及 scale 的任何问题，这样看来早一年毕业真的是正确的决定，不然再呆一年也是浪费时间，找不着好工作然后继续读研。&lt;/p&gt;
-
-&lt;h3 id=&quot;prioritization--diversity&quot;&gt;Prioritization &amp;amp;&amp;amp; Diversity&lt;/h3&gt;
-&lt;p&gt;我实在为 Prioritization 找不到一个满意的词来翻译，优先级划分有点太僵硬了。&lt;/p&gt;
-
-&lt;p&gt;不如这么来理解，本科的你在规划未来，你有三个选择：&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;毕业后直接找到好工作（需要实习）&lt;/li&gt;
-  &lt;li&gt;申到 PhD（需要科研）&lt;/li&gt;
-  &lt;li&gt;走一个直通转学名校的项目/混个 master（需要达到 GPA 和其他标准）&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;你不可能同时保证 1-2 个实习，科研能出成果，还能保持很高的 GPA，所以你一定要放弃一些相对不重要的选项。问题是大部分本科生其实都搞不清楚自己到底要不要去读 PhD（这很正常，也没有关系），你要做的就是选择（没错，就算你不知道），你越快做出选择，你的试错成本就越低。千万不能有 liberal arts/general education 这种封建思想，时间有限，只读经典。&lt;/p&gt;
-
-&lt;p&gt;在 wm 我感觉科研也得做（说不定能做出点啥牛逼的东西了呢），实习也得找（不然毕业没饭吃），哥大 3+2 总能当个保底吧，反正项目要求也不高，就顺带手满足一下吧。结果就是哪个做的都不好不坏，实习在国内外企养了个老，科研做的都是半吊子科研，做系统工程能力上不去，做 ML 数学基础太差，甚至连哥大 3+2 都要被迫上很多既不喜欢又没意义的必修课，反而拉低 GPA /占用时间。&lt;/p&gt;
-
-&lt;p&gt;如果说在 wm 你还勉强可以所有的都兼顾，并且都做的一般，CMU 就没有这种可能性，甚至单单是上课一项，你都需要在找工作忙的学期战略性放弃一些，而且 CMU 的氛围比较 technical，专业课很难，通识课很水，这种氛围不自觉也会加强学生 “把时间放在重要的事情上” 的 mindset。&lt;/p&gt;
-
-&lt;p&gt;Diversity 其实比较好理解，一个学校越 technical，必修课越少，diversity 就越高，因为这样每个人都会很快地找到自己的 priority 然后试错。很多 wm 的同学直到大三课表都差不多（因为都是通识），后一两年才开始做选择（万一选错了你都没时间改了），这种 “小而美” 的教育模式反正我是匪夷所思。&lt;/p&gt;
-
-&lt;h3 id=&quot;校友网络--竞争性&quot;&gt;校友网络 &amp;amp;&amp;amp; 竞争性&lt;/h3&gt;
-&lt;p&gt;虽然我对 INI 的课程意见很大，教授的水平也确实有限，但 INI 对于学生就业的关注程度应该是 CMU 里最高的了，毕竟 INI 的毕业要求强制实习。而且大家找工作的氛围非常好，基本上各种类型的公司都能找到校友内推。这一点应该是 CMU 最有价值的地方，就是 alumni network。我之前一直没有很关注这一点，但就长远来看，一个学校在你所处行业里拥有的人脉，比开设什么课程要重要得多。之前看过一个 TedTalk 演讲里提到一个概念：weak connection，就是弱连接。其实职场不同于学校，本身大家的 connection 就很弱，所以校友这种弱连接会以一种潜移默化的方式影响你，而且是一辈子的影响力。&lt;/p&gt;
-
-&lt;p&gt;我之前确实吐槽过 CMU 的 career fair 没什么用，因为竞争太激烈，你的简历放进去就石沉大海了，大二本科简历都比你好看。但反过来看，就算石沉大海，这也是一个潜在的机会，或者说让我看清了自己和别人的差距，你可以说这是内卷，但往好处想也确实开眼界。在 wm 的时候不得不说我过的挺舒服，因为我觉得至少在计算机系里我挺厉害，现在看就是一叶障目不见泰山，看不到自己需要提高的地方。你可能会说，那为什么总要跟 wm 比？我只能说这种问题就是鸡生蛋蛋生鸡，事后诸葛来看这话当然是对的，但问题就是人都是囿于眼界的，而且习惯于停留在舒适区，大四留在 wm 每月拿个 cover 生活费的 RA 工资，给本科生讲讲课，再混个 PhD 读一读，这人就是温水煮青蛙会废掉的，之后你自己都不想找工作了。&lt;/p&gt;
-
-&lt;h3 id=&quot;一段含金量很高的实习--cloudera&quot;&gt;一段含金量很高的实习 @ Cloudera&lt;/h3&gt;
-&lt;p&gt;正是在 CMU 这种找工作的氛围之下，暑假我去了 Cloudera 实习，做一个类似于 HDFS 的 Apache 的&lt;a href=&quot;https://ozone.apache.org&quot;&gt;开源项目&lt;/a&gt;。这次实习算是一段很惊喜的体验，因为我本来没有 expect project scope 可以这么大。我实习三个月，第一次看到做的东西投入 production，并且和学校里的 toy project 不一样，学到了很多工业界常用的框架，包括以前从来没听过的东西，比如 RocksDB，Dependency Injection，Mockito，CI/CD pipeline。之前在学校学过的东西，比如 RPC/REST APIs，实习的时候实实在在地看到了在工业界的实现，真正理解了为什么在 distributed system 里需要 encoding/marshalling。&lt;/p&gt;
-
-&lt;p&gt;比实习本身更重要的，一是遇到了很好的 manager 和 mentor，一直在问我的职业规划。我说我想做 full stack，因为每个领域都能学到一点，于是我暑假的项目就临时加了一点前端/data viz，但 manager 也很实诚，最后和我谈 return 的时候说，自己并不看好一毕业就做 full stack，因为什么都会一点就代表什么都不会，建议我还是往 backend/system infra 的方向去走，选一个方向 dive deep 几年成为 expert，之后再去 pick up 全栈。二是这段实习经历对简历非常有帮助，找全职的时候除了门槛太高的 HFT 至少能给个面试。&lt;/p&gt;
-
-&lt;h3 id=&quot;平台和-brand-name&quot;&gt;平台和 brand name&lt;/h3&gt;
-&lt;p&gt;我十分同意 “学校不能定义一个人” 这句话，尤其是对于工程师这种实践大于理论的职业。但是世界就是残酷且世俗的，学校是一个非常方便的标签，帮助 HR 去快速地做出 “我该继续看下去还是把简历扔进垃圾桶” 的决定，而 CMU 给了我这个 “让 HR 继续看简历” 的机会。甚至之前申请实习的时候，有一个做 static code analysis 的小公司直接邀请我 onsite，说得也很直接：“我们认为 CMU 的学生不会浪费我们的 onsite 机会”。在国内，wm 只会被当成英国的野鸡学院来看待，就算在美国，wm 计算机系的直接就业情况并不好，基本都困在了 DC 和 nova 一带的公司，要不是亚麻18年去 arlington 建数据中心，毕业生基本和 FLAG 绝缘了。&lt;/p&gt;
-
-&lt;h3 id=&quot;my-heart-is-in-the-work&quot;&gt;My heart is in the work&lt;/h3&gt;
-&lt;p&gt;这一点更哲学一点，但其实又很实际。CMU 之前，我对自己的 “work” 并没有理解。这个 work 其实并不一定是狭义上的工作，我认为可以把定义放宽：就是 “你愿意投入时间的事情（commitment）”，然后把它当作长期的事业去培养。甚至我觉得跑步都算 work，之前看过一个知乎博主在 CMU 读 PhD 的时候，一有空就要围着 Schenley Park 跑几圈，我想这就是对这句话的诠释吧：&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Turn everything you do into a career; take pride in your work, and take the responsibility.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;center&gt;
-    &lt;img style=&quot;border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&quot; src=&quot;/assets/farewell.png&quot; /&gt;
-    &lt;br /&gt;
-    &lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;&quot;&gt;再见了，CMU。&lt;/div&gt;
-&lt;/center&gt;
-
-&lt;p&gt;Always proud to be a Tartan!&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;Yuan @ Beijing
-2022/02/23&lt;/p&gt;</content><author><name></name></author><category term="experience" /><category term="grad-school" /><category term="cs" /><category term="zh" /><summary type="html">刚刚收到了从 CMU 寄到北京的毕业证，我这个人比较浅薄，实在没有做科研的伟大志向，所以硕士应该是我学生时代的结尾了。回想起两年前举足无措的自己，CMU 确实是给了我一个更高的平台，得到了很多在 wm 不可能得到的机会，并且在毕业的时候拿到了 6 个 全职 offer，找工作的过程也非常顺利，甚至单单用 CMU 这个 title 就可以拿到面试。经济方面，从2020年8月到2021年12月，这一年半也不算拮据，不像在 wm 一样出了车祸连 2500 的 deductible 都拿不出来，一共两万多奖学金，加上暑假实习和 TA 的钱，几乎 cover 了一大半的学费，所以总体来说，我对 CMU 确实很感激。</summary></entry><entry><title type="html">2021 秋招碎碎念</title><link href="http://localhost:4000/ng-ft-swe/" rel="alternate" type="text/html" title="2021 秋招碎碎念" /><published>2021-12-25T00:00:00-08:00</published><updated>2021-12-25T00:00:00-08:00</updated><id>http://localhost:4000/swe-ft</id><content type="html" xml:base="http://localhost:4000/ng-ft-swe/">&lt;p&gt;总算是毕业了，在确保最后一学期没有挂科的情况下匆忙地买了回国机票。10天前刚考完最后一门 final，现在就已经到了 LA 酒店，等待大使馆发绿码，希望祖国能接受我的千里投毒。&lt;/p&gt;
-
-&lt;p&gt;匆忙之余，总要写点东西纪念一下这个 draconian 的最后一学期，毕竟学生时代大概的确是结束了。而总体来看，在 CMU 的一年半还算是满意，找全职意想不到地顺利（今年 market 太好），所以打算趁着没入职，记录一下关于秋招的碎碎念。&lt;/p&gt;
-
-&lt;h3 id=&quot;时间线&quot;&gt;时间线&lt;/h3&gt;
-&lt;p&gt;投的算是比较早，毕竟12月就要毕业，7月份还在 Cloudera 实习（划水）就开始投了。投的策略非常简单：去 levels.fyi 上设一个 filter，看哪家全职给的比 Cloudera (190k~) 高，比 Cloudera 低的就不投了（说的就是 Apple）。大概7月份和8月份都没有安排面试，做了一堆 OA 或者 CodeSignal，约了几家下一轮（VMWare，Cruise，Foursquare，剩下没到 onsite 的都忘了）。&lt;/p&gt;
-
-&lt;p&gt;面试基本都安排在了九月和十月，我安排的比较策略性：phone screen 尽量安排在早上或者晚上，要么就是两节课之间的空隙，如果有多轮就 request back-to-back，因为这样的话 context switch 不会有太多的 overheads；onsite 基本一天下午搞完，尽量不拆成两天（保持状态）或者一天安排两场（亲测下午那场就会摆烂），10月之后我就几乎不面了，毕竟前半段 GPA 属于挂科状态，多拿几个同质化 offer 不如稳一点毕业。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;very rough interview timeline&lt;/strong&gt;：&lt;br /&gt;
-9.3: Houzz phone screen，面完被 HR ghost 了&lt;br /&gt;
-9.6: Cruise HR chat，这轮算面试。。问了快一个小时&lt;br /&gt;
-9.13: Foursquare 两轮 phone screen&lt;br /&gt;
-9.16: C3 AI phone screen，挂&lt;br /&gt;
-9.22: Verkada phone screen&lt;br /&gt;
-9.23: Cruise 两轮 phone screen&lt;br /&gt;
-9.27: Scale AI phone screen（20岁辍学的哈佛小哥面我个22岁的。。）&lt;br /&gt;
-10.4: Cruise onsite（4）&lt;br /&gt;
-10.5: Foursquare onsite（5）&lt;br /&gt;
-10.6: IXL Learning phone screen&lt;br /&gt;
-10.6: Shopee phone screen&lt;br /&gt;
-10.12: Scale AI onsite（4）&lt;br /&gt;
-10.14: VMWare Propel onsite（4）&lt;br /&gt;
-10.15: Google onsite（5）&lt;br /&gt;
-10.18: Shopee final/manager interview&lt;br /&gt;
-10.19: IXL Learning onsite (面了前两场就摆烂了，直接退了 meeting)&lt;br /&gt;
-10.26: Cruise manager interview&lt;br /&gt;
-10.29: Verkada (physical) onsite @ San Mateo (5)&lt;br /&gt;
-11.4: Rubrik 前两轮 onsite (skip phone screen)&lt;br /&gt;
-11.9: Rubrik 后两轮 onsite&lt;br /&gt;
-11.12: VMWare Networking 组招 onsite, skip phone screen (3)&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;offers&quot;&gt;Offers&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Cloudera return&lt;/strong&gt;: ~190k, RSU (176k) as cash, equally vested in 4 years. Bonus paid quarterly.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Foursquare&lt;/strong&gt;: ~180k, based in LA.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Google (accepted)&lt;/strong&gt;: ~220k first year, front loading vesting schedule.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;VMWare组招&lt;/strong&gt;: ~190k, 股票比 Propel 多 50k.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Cruise&lt;/strong&gt;: 不到200k，down-level to L2.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Rubrik&lt;/strong&gt;: 太晚才出口头 offer 直接给拒了&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Shopee&lt;/strong&gt;: ~500k RMB, based in Singapore.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;onsite-reject&quot;&gt;Onsite Reject&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Verkada&lt;/strong&gt;：我觉得我面的挺好的。。而且Verkada是唯一一家疫情期间坚持现场 onsite 的公司，结果面完一周之后打电话告诉我被拒了。。。不过面试体验还是不错的，其中有两轮的面试官都是sales，有一个还是VP，感觉比较像硅谷早期的面试风格。比如其中两个问题是“美国一共有多少个teddy bear”和“给你30分钟，说服我买xxx产品”。这家 VP 基本都是 sales 出身，而且公司文化上比较像大学的兄弟会（frat culture）。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Scale AI&lt;/strong&gt;：一个哈佛，一个UCB，两个MIT，能过才怪。。题很像 ICPC 的风格，核心算法不难，但 corner case 很多，而且不追求优化，感觉想考察在短时间内给出一个能 minimally work 的 solution 的能力。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;VMWare Propel&lt;/strong&gt;：&lt;del&gt;垃圾，真的垃圾。&lt;/del&gt;极其常规的leetcode，面试官全都敷衍了事，最后一位居然说我把 reverse linkedlist 写错了。。面完手贱发了个邮件，写了几个 tests，附上了结果正确的 console log，果然被拒了。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;黑名单&quot;&gt;黑名单&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;IXL Learning:&lt;/strong&gt; &lt;del&gt;傻逼公司。&lt;/del&gt;居然还有压力面这种东亚文化糟粕。其他面的面试官也都爱答不理，我讲完思路问 make sense 吗他说让我先写，写完了又告诉你这不对那不对，&lt;del&gt;妈了个逼的&lt;/del&gt;不会早说？&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;VMWare Propel:&lt;/strong&gt; 面试官&lt;del&gt;傻逼&lt;/del&gt;就算了，HR 拒人还挺有艺术：先给你约个 Zoom 说有 update 了，meeting 之前发封邮件告诉你被拒了，meeting 的时候直接 no show，半个小时给你发邮件说家边上刮台风电脑 crashed 了。。。直接回邮件 diss back。&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Shopee:&lt;/strong&gt; 实话新加坡厂的办事效率还是不错的，5分钟内回邮件的 HR 真没见过，约面试时间也非常快。可惜就是终面的面试官水平属实有限，想装逼都装不到点上。第一轮 engineer 面还可以，常规 bfs + followup，第二轮 manager 简直是灾难，说到数据库不知道buffer pool，说到分布式系统设计不知道 ACID，你自己都不知道就别考 system design 了，容易翻车。&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;一些策略和-takeaway&quot;&gt;一些策略和 takeaway&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;尽量把所有的 onsite 集中在一个月，这样 offer 有效的时间大致重叠，方便一起 compete。&lt;/li&gt;
-  &lt;li&gt;面到有offer之后就可以选择性地面试，面之前查一查大概能给多少钱，同质化的 offer 收多了没什么用，最好的就是有一个很高的 superstar offer（但不一定是最想去的），用这个去 compete 真正想去的厂。我如果能有一个 HFT 或者给的很高的 startup，就可以用它来 compete Google，可惜的是 Cruise lowball 了我，level 上比正常 NG 低了一级，叫 associate swe，打听了一下是因为组是写移动端的全栈组，不算核心业务。其他的 cloud 相关的厂都给的大差不差，毕竟 cloud 已经是很成熟的产业了，给的并没有我想象的多。&lt;/li&gt;
-  &lt;li&gt;对于 GPA，要抱着及格万岁的心态，不过在 INI 还要保证奖学金不被 revoke，所以得悠着点儿。&lt;/li&gt;
-  &lt;li&gt;NG 并不是不能尝试 1-3 年的 experienced hire，只要你简历能说服 HR 就行。&lt;/li&gt;
-  &lt;li&gt;12月毕业的话最后一学期压力还是挺大的，适当放松心情，可以在 onsite 之间的周末出去玩儿一圈。10月底的时候也不是特别想去面 Verkada，但因为连续一个月的 onsite 实在太累了，所以就借着 Verkada 现场面试飞了一圈三番，去看了 CMU 的硅谷校区，和很多因为疫情从没见过面的朋友吃了饭，打了保龄球，尽管那个时候堆了很多作业，当天晚上就要飞回来补考 midterm。事后很意外地看，这是我那个学期过的最开心的两天。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;center&gt;
-    &lt;img style=&quot;border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&quot; src=&quot;/assets/bowling.JPG&quot; /&gt;
-    &lt;br /&gt;
-    &lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;&quot;&gt;生活不是竞技场, 2021/10/29&lt;/div&gt;
-&lt;/center&gt;
-
-&lt;p&gt; &lt;/p&gt;
-&lt;h3 id=&quot;大厂-crud-还是-startup-走一波&quot;&gt;大厂 CRUD 还是 startup 走一波？&lt;/h3&gt;
-&lt;p&gt;这个问题我几乎是想了快一个学期，到现在也不知道 Google 到底是不是自己内心的选择，是不是还是会潜意识地考虑 brand name 和身份问题。如果你九月份问我，我一定会放弃 Google，选择 Cruise。其实什么 IPO 之后股票翻倍都不是决定性的，而是在 Cruise 能够 deliver 更大的 impact，尤其是无人车商业化刚刚起步的阶段，需要 engineer 去做用户体验，增长，构建成规模的 data infra pipeline/cloud backend。而 Google 因为今年先走 PA match 的政策，没有办法知道具体的组，而且 Google 虽然用户体量大，但每个人具体做的东西仅仅是庞大系统里的一个小零件，甚至说很容易就会成为 CRUD engineer, which I don’t want to be at the beginning of the career…&lt;/p&gt;
-
-&lt;p&gt;但从另一个角度来想，不是内心的选择其实也没那么重要，因为从世俗的角度看，职业生涯必须要考虑 brand name 和身份：没有 brand name 背书，就像我本科在 wm 的时候一样，连面试的门槛都进不去（虽然我觉得 Cruise 应该没有这个问题）；没有身份，未来的一切都是白搭，甚至被迫转到其他国家的组。所以毕业头两年去 Google 学学技术，把身份稳下来，不算“妙手”，也算是“本手”吧&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;当然，我很可能是错的，只是目前，我已经做出了我认为是“本手”的选择。当年本科放弃南加大选择了 wm，之后的几年我抱怨过，也站在不同的位置上重新分析过，但我从没有后悔过当年的选择，因为如果「想学文科，喜欢文理教育，可能读 PhD」的 assumptions 仍然存在，我还会义无反顾地选择 wm。人终究是囿于当前的 assumptions 的，所以没有必要纠结是对是错，只要做了选择，就算未来 assumptions 改变，我也能承受这个选择所带来的结果，就够了。&lt;/p&gt;
-
-&lt;h3 id=&quot;吐个槽&quot;&gt;吐个槽&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;垃圾 INI，垃圾 740，这个不划&lt;/strong&gt;&lt;br /&gt;
-我真是不明白 INI 何苦要开这么多自己的课，如果说学不到东西但是能轻松混个学分，不说好课但起码不至于是垃圾课，但 Bill Nace 的 740 实在是无法忍受的烂。INI 应该发挥自己的优势（工业界的校友资源，找工项目的口碑，practicum project），而不是非要拙劣地弥补弱势（教学水平）。其实大家都懂，教的水平就是烂，与其费力招教授，还不如放学生去上 SCS 的课，至少不要设这么多&lt;strong&gt;垃圾&lt;/strong&gt;的必修课。我知道院里也想有些牌面，但是清楚自己擅长什么很重要，比如主打找工作的口碑，课程上开几门 networking &amp;amp; security 相关的课，讲得好再设成必修，讲得烂就放过学生吧。&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;Yuan @ Los Angeles 
-2021/12/25&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;意为掌握一般分寸的合乎本分之著手 – 百度百科 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="experience" /><category term="interview" /><category term="grad-school" /><category term="cs" /><category term="zh" /><summary type="html">总算是毕业了，在确保最后一学期没有挂科的情况下匆忙地买了回国机票。10天前刚考完最后一门 final，现在就已经到了 LA 酒店，等待大使馆发绿码，希望祖国能接受我的千里投毒。</summary></entry></feed>
+2022.3.14 @ Shanghai&lt;/p&gt;</content><author><name></name></author><category term="memory" /><category term="airport-writing" /><category term="zh" /><summary type="html">我自认为我是相当没有仪式感的一个人，过年过节、过生日、实习、毕业、入职。。。人生种种的关键节点，从来没停下来 emo 过。但惟独每次要回美国的时候，在机场拥抱告别，看飞机滑行降落，心里总有一些话想说，大概这就是“多情自古伤离别”罢。</summary></entry></feed>
