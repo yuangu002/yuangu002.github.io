@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>美股板块趋势报告 · 2026-08-29 | windpig</title>
+<style>
+  :root {
+    --bg: #0e1116; --card: #161b22; --border: #2a3038; --text: #e6edf3;
+    --muted: #8b949e; --green: #3fb950; --red: #f85149; --yellow: #d29922;
+    --blue: #58a6ff; --purple: #bc8cff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.65 -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 32px 20px 60px; }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 18px; margin-bottom: 24px; }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  h1 .pig { font-size: 22px; }
+  .meta { color: var(--muted); font-size: 13px; }
+  h2 { font-size: 19px; margin: 34px 0 12px; padding-left: 10px; border-left: 4px solid var(--blue); }
+  h3 { font-size: 16px; margin: 18px 0 8px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; margin: 12px 0; }
+  .verdict { border-left: 4px solid var(--green); }
+  .verdict .row { display: flex; gap: 8px; margin: 6px 0; flex-wrap: wrap; }
+  .tag { background: #1f6feb33; color: var(--blue); border-radius: 5px; padding: 1px 8px; font-size: 13px; white-space: nowrap; }
+  .tag.g { color: var(--green); background: #3fb95022; }
+  .tag.r { color: var(--red); background: #f8514922; }
+  .tag.y { color: var(--yellow); background: #d2992222; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 13.5px; }
+  th, td { padding: 7px 9px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 12.5px; white-space: nowrap; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .up { color: var(--green); } .down { color: var(--red); }
+  .muted { color: var(--muted); }
+  .bar { height: 8px; background: #21262d; border-radius: 4px; overflow: hidden; margin-top: 3px; }
+  .bar i { display: block; height: 100%; border-radius: 4px; }
+  .score-cell { min-width: 130px; }
+  .total { font-weight: 700; }
+  .win { color: var(--green); font-weight: 700; }
+  .kpis { display: flex; gap: 12px; flex-wrap: wrap; }
+  .kpi { flex: 1 1 150px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+  .kpi .v { font-size: 22px; font-weight: 700; }
+  .kpi .l { color: var(--muted); font-size: 12.5px; }
+  .wbar { display: flex; align-items: center; gap: 10px; margin: 4px 0; font-size: 13px; }
+  .wbar .name { width: 52px; color: var(--muted); text-align: right; }
+  .wbar .track { flex: 1; background: #21262d; border-radius: 4px; height: 16px; position: relative; overflow: hidden; }
+  .wbar .track i { position: absolute; top: 0; bottom: 0; border-radius: 4px; }
+  .wbar .val { width: 64px; font-variant-numeric: tabular-nums; text-align: right; }
+  ul { margin: 8px 0; padding-left: 22px; }
+  li { margin: 4px 0; }
+  code { background: #21262d; border-radius: 4px; padding: 1px 6px; font-size: 13px; }
+  .foot { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12.5px; }
+  .pill { display: inline-block; border-radius: 20px; padding: 2px 10px; font-size: 12.5px; border: 1px solid var(--border); }
+  .pill.g { color: var(--green); border-color: #3fb95055; }
+  .pill.r { color: var(--red); border-color: #f8514955; }
+  .pill.y { color: var(--yellow); border-color: #d2992255; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1><span class="pig">🐷💨</span> 美股板块趋势报告 · 2026-08-29</h1>
+  <div class="meta">windpig · 风口上的猪 | 复盘本周 8/24–8/28 | 数据 as-of 2026-08-28 收盘 | 由 windpig skill 生成</div>
+</header>
+
+<div class="card verdict">
+  <h3 style="margin-top:0">结论 TL;DR</h3>
+  <div class="row">
+    <span class="pill g">Regime: Bull Trend</span>
+    <span class="pill g">下一波候选: Software / AI 变现层 (IGV)</span>
+    <span class="pill y">Primary trade: PLTR 回踩 20EMA 进</span>
+    <span class="pill y">Semis → watchlist（等价格确认）</span>
+  </div>
+  <p style="margin:10px 0 0">
+    <strong>NVDA 财报把 AI capex thesis 钉死了</strong>（FY28 指引 +70% vs 预期 +45%），但资金这周奖励的是
+    <strong>“AI 变现层”而不是半导体</strong>：IGV 全周最强 (+5.93%)，NOW +12.6% 突破、PLTR roc20 +51%。
+    框架之问——<em>“NVDA 横盘时哪个 layer 创新高？”</em>——本周的答案是 <strong>Software</strong>。
+  </p>
+</div>
+
+<h2>1. Market Regime</h2>
+<div class="kpis">
+  <div class="kpi"><div class="v">769.35</div><div class="l">SPY · 多头排列 · -1.1% off 52w 高</div></div>
+  <div class="kpi"><div class="v">13.8</div><div class="l">VIX（16.2 → 13.8，压缩）</div></div>
+  <div class="kpi"><div class="v">3.78%</div><div class="l">10Y（4.11% → 3.78%，-33bp）</div></div>
+  <div class="kpi"><div class="v up">5847.29</div><div class="l">S&P 500 周五收历史新高 +0.94%</div></div>
+</div>
+<div class="card">
+  <ul>
+    <li>Jackson Hole 转鸽（Warsh）：9/18 FOMC 降息概率 ~72%；初请 198k（预期 210k），失业率 3.9% 企稳</li>
+    <li>NVDA 财报炸裂：EPS $2.22 vs $2.09，营收 $96.2B（+106% YoY）；FY28 指引 +70% vs 预期 +45%；因 HBM 成本把 GM 指引下调至 71–73%（= 供给约束实锤）；BofA 重申 Buy，PT $350</li>
+    <li>AMD 财报 beat：数据中心 +150% YoY，周 +6.2%</li>
+    <li><strong>分支选择：Trend → 集中做 winner</strong>，无需 covered-call 分支</li>
+  </ul>
+</div>
+
+<h2>2. 板块扫描速览（本周 close-to-close %）</h2>
+<div class="card">
+  <div class="wbar"><span class="name">IGV</span><span class="track"><i style="left:50%;width:4.4%;background:var(--green)"></i></span><span class="val up">+5.93%</span></div>
+  <div class="wbar"><span class="name">XLC</span><span class="track"><i style="left:50%;width:1.1%;background:var(--green)"></i></span><span class="val up">+1.43%</span></div>
+  <div class="wbar"><span class="name">XLK</span><span class="track"><i style="left:50%;width:1.0%;background:var(--green)"></i></span><span class="val up">+1.30%</span></div>
+  <div class="wbar"><span class="name">XLF</span><span class="track"><i style="left:50%;width:0.8%;background:var(--green)"></i></span><span class="val up">+1.08%</span></div>
+  <div class="wbar"><span class="name">TLT</span><span class="track"><i style="left:50%;width:0.8%;background:var(--green)"></i></span><span class="val up">+1.01%</span></div>
+  <div class="wbar"><span class="name">SPY</span><span class="track"><i style="left:50%;width:0.4%;background:var(--green)"></i></span><span class="val up">+0.47%</span></div>
+  <div class="wbar"><span class="name">QQQ</span><span class="track"><i style="left:50%;width:0.3%;background:var(--green)"></i></span><span class="val up">+0.42%</span></div>
+  <div class="wbar"><span class="name">XBI</span><span class="track"><i style="left:50%;width:1.5%;background:var(--red)"></i></span><span class="val down">-2.02%</span></div>
+  <div class="wbar"><span class="name">SOXX</span><span class="track"><i style="left:50%;width:1.7%;background:var(--red)"></i></span><span class="val down">-2.20%</span></div>
+  <div class="wbar"><span class="name">GLD</span><span class="track"><i style="left:50%;width:2.6%;background:var(--red)"></i></span><span class="val down">-3.42%</span></div>
+  <div class="wbar"><span class="name">USO</span><span class="track"><i style="left:50%;width:2.8%;background:var(--red)"></i></span><span class="val down">-3.67%</span></div>
+  <p class="muted" style="font-size:12.5px">完整 27 只 ETF 扫描见 windpig skill 的 <code>--scan</code>。关键信号：IGV（软件）FULL_BULL 新晋、ADX 26.9；SMH/SOXX 仍 TRANSITION（价在 20/50 下方）——典型“基本面确认、价格未确认”；XBI/IBB 上周大涨后回吐 -2%；GLD -3.4% 避险资金流出。</p>
+</div>
+
+<h2>3. Sector Scorecard（六维 0–10）</h2>
+<div class="card">
+<table>
+  <thead><tr>
+    <th>Sector</th><th class="num">① 需求加速</th><th class="num">② 供给约束</th><th class="num">③ 盈利杠杆</th><th class="num">④ 预期上修</th><th class="num">⑤ 价格确认</th><th class="num">⑥ 拥挤度</th><th class="num">总分</th><th>可视化</th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <td>半导体</td><td class="num">10</td><td class="num">8</td><td class="num">9</td><td class="num">9</td><td class="num down">5</td><td class="num">6</td><td class="num total">47</td>
+      <td class="score-cell"><div class="bar"><i style="width:78%;background:var(--blue)"></i></div></td>
+    </tr>
+    <tr>
+      <td><strong class="win">软件 / AI 变现 ✅</strong></td><td class="num">8</td><td class="num">6</td><td class="num">7</td><td class="num">7</td><td class="num up">9</td><td class="num">6</td><td class="num total win">43</td>
+      <td class="score-cell"><div class="bar"><i style="width:72%;background:var(--green)"></i></div></td>
+    </tr>
+    <tr>
+      <td>金融 XLF</td><td class="num">5</td><td class="num">7</td><td class="num">8</td><td class="num">6</td><td class="num">8</td><td class="num">7</td><td class="num total">41</td>
+      <td class="score-cell"><div class="bar"><i style="width:68%;background:var(--purple)"></i></div></td>
+    </tr>
+    <tr>
+      <td>生物科技</td><td class="num">7</td><td class="num">4</td><td class="num">6</td><td class="num">8</td><td class="num">8</td><td class="num down">3</td><td class="num total">36</td>
+      <td class="score-cell"><div class="bar"><i style="width:60%;background:var(--yellow)"></i></div></td>
+    </tr>
+    <tr>
+      <td>Power / Nuclear</td><td class="num">7</td><td class="num">8</td><td class="num">3</td><td class="num">3</td><td class="num">4</td><td class="num">6</td><td class="num total">31</td>
+      <td class="score-cell"><div class="bar"><i style="width:52%;background:#6e7681"></i></div></td>
+    </tr>
+  </tbody>
+</table>
+<p style="font-size:13px">半导体总分最高但 <strong>⑤=5</strong>——框架里最经典的 case：<em>“基本面最强 ≠ 现在最值得做”</em>（AVGO 型 divergence）。软件 ⑤=9，正处于 Early Confirmation → Price Confirmation 的交接点，是当前唯一“趋势已确认且不拥挤”的选择。</p>
+</div>
+
+<h2>4. 落选理由</h2>
+<div class="card">
+<ul>
+  <li><strong>半导体</strong>：不是不看好，是“等价格确认”。NVDA 217.55 恰收在 20EMA (215.7) 上方消化财报 gap——框架剧本是“$217→$210 守→重新向 $230”；SMH 需收复 565–569 (20/50) 才算资金回流。不抢跑。</li>
+  <li><strong>生物科技</strong>：拥挤度高（⑥=3）、疫苗催化驱动、本周已回吐，属于“已经涨了一轮”。</li>
+  <li><strong>金融</strong>：无 differentiation 故事，RRG 显示动量在 leading 象限失速。</li>
+</ul>
+</div>
+
+<h2>5. Sub-theme &amp; Differentiation</h2>
+<div class="card">
+<p>市场共识：“降息 → 全线 tech 估值修复”。我们的预期差：<strong>AI capex 已被 NVDA 钉死（FY28 +70%），AI 支出的下一棒轮到 monetization 层</strong>——inference 放量后，钱从“算力”流向“把 AI 变成收入的软件”。这是 Level 3 认知分化：赚的是“市场认知改变”的钱，不只是行业增长的钱。</p>
+</div>
+
+<h2>6. Technical Confirmation</h2>
+<div class="card">
+<table>
+  <thead><tr><th>标的</th><th class="num">收盘</th><th class="num">周%</th><th>对齐</th><th class="num">RSI</th><th class="num">%B</th><th>关键读数</th></tr></thead>
+  <tbody>
+    <tr><td>IGV</td><td class="num">109.50</td><td class="num up">+5.93</td><td><span class="pill g">FULL_BULL</span></td><td class="num">68.1</td><td class="num">1.05</td><td>ADX 26.9；短线过热</td></tr>
+    <tr><td>NOW</td><td class="num">144.71</td><td class="num up">+12.63</td><td><span class="pill g">BULLISH</span></td><td class="num">72.7</td><td class="num down">1.18</td><td>20日 breakout；距 52w 高仍 -24.7%（大修复）</td></tr>
+    <tr><td>PLTR</td><td class="num">186.29</td><td class="num up">+3.53</td><td><span class="pill g">BULLISH</span></td><td class="num">69.3</td><td class="num">0.80</td><td><strong>roc20 +51%、ADX 35.8、量比 1.13 放量</strong>、-10% off 高</td></tr>
+    <tr><td>MSFT</td><td class="num">513.53</td><td class="num up">+6.27</td><td><span class="pill g">BULLISH</span></td><td class="num">73.1</td><td class="num">1.05</td><td>全均线多头；RSI 顶背离警告</td></tr>
+    <tr><td>APP</td><td class="num">317.76</td><td class="num up">+3.92</td><td><span class="pill r">BEARISH</span></td><td class="num">37.7</td><td class="num">0.42</td><td>-56.7% off 高，趋势破位，不碰</td></tr>
+    <tr><td>NVDA</td><td class="num">217.55</td><td class="num up">+1.32</td><td><span class="pill g">FULL_BULL</span></td><td class="num">52.3</td><td class="num">0.48</td><td>财报 gap 健康消化中</td></tr>
+    <tr><td>MU</td><td class="num">932.86</td><td class="num down">-3.51</td><td><span class="pill g">FULL_BULL</span></td><td class="num">50.7</td><td class="num">0.57</td><td>roc60 -13.6%，高位震荡</td></tr>
+    <tr><td>AVGO</td><td class="num">368.79</td><td class="num up">+0.09</td><td><span class="pill y">TRANSITION</span></td><td class="num">42.7</td><td class="num">0.28</td><td><strong>正坐 200EMA (368.4)</strong>、stoch K=19 超卖、9月初财报</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>7. Trade Plan</h2>
+<div class="card">
+<ul>
+  <li><strong>Entry</strong>：PLTR 回踩 20EMA (169) 或 IGV 回踩 20EMA (102.5) 分批；不追 %B&gt;1 的位置（NOW/MSFT 当前均超上轨，NOW 等回踩 139–140 或 20EMA 125）</li>
+  <li><strong>Stop / Invalidation</strong>：PLTR 跌破 50EMA (154)；或 IGV 失守 98 (50EMA) / 20×50 死叉</li>
+  <li><strong>Add</strong>：IGV RS 继续上行 + breadth 扩大（不只 MSFT/NOW/PLTR 三只在涨）+ CRM 财报（9 月初）确认 AI re-acceleration</li>
+  <li><strong>Exit</strong>：9/5 非农过热 → 降息交易逆转；或 regime 转 Range</li>
+  <li><strong>Range 分支</strong>：不适用（Trend regime）</li>
+</ul>
+</div>
+
+<h2>8. 什么情况下 thesis 错了</h2>
+<div class="card">
+<ol>
+  <li>10Y 重新升破 4% → 长 duration 软件估值逻辑反噬</li>
+  <li>CRM 财报证伪“AI 变现加速”（9 月初最关键的单点证伪）</li>
+  <li>PLTR / IGV 跌破 50EMA + 死叉</li>
+  <li>资金明确回流 SMH（反而触发半导体 watchlist 买入，同时降级软件）</li>
+</ol>
+</div>
+
+<h2>9. Watchlist（不交易）</h2>
+<div class="card">
+<ul>
+  <li><strong>SMH</strong> 收复 565–569 → 半导体升级为 primary（框架剧本第二幕）</li>
+  <li><strong>AVGO</strong> 收复 20EMA (380) → AVGO 型 re-entry（200EMA + 超卖 + 财报催化）</li>
+  <li><strong>XBI</strong> 守住 20EMA (161) 且拥挤度消化 → 再评估</li>
+</ul>
+</div>
+
+<h2>10. 接下来盯什么</h2>
+<div class="card">
+<table>
+  <thead><tr><th>日期</th><th>事件</th><th>为什么重要</th></tr></thead>
+  <tbody>
+    <tr><td>9/1（周一）</td><td>劳动节休市</td><td>—</td></tr>
+    <tr><td>9/5</td><td>8 月非农</td><td>劳动力数据是降息交易的真检验；过热 = thesis 逆转</td></tr>
+    <tr><td>9 月初</td><td>CRM、AVGO 财报</td><td>CRM 验证 AI 变现；AVGO 决定 semis 归位时机</td></tr>
+    <tr><td>9/9</td><td>iPhone 16 发布会</td><td>消费电子 + AI 功能预期</td></tr>
+    <tr><td>9/18</td><td>FOMC 利率决议</td><td>降息兑现/落空 → 长 duration 重定价</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="foot">
+  价格与指标数据：Polygon.io / Yahoo Finance 日线（as-of 2026-08-28 收盘），由 <a href="https://github.com/yuangu002/windpig" style="color:var(--blue)">windpig skill</a> 的 market_data.py 计算（EMA/RSI/MACD/Stoch/Bollinger/ATR/ADX/OBV/RS）。
+  新闻叙事来自公开市场报道，与直接行情数据冲突时以行情数据为准。<br>
+  <strong>本报告不构成投资建议。</strong>
+</div>
+
+</div>
+</body>
+</html>
