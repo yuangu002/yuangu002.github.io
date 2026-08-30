@@ -23,6 +23,9 @@
   h2 { font-size: 19px; margin: 34px 0 12px; padding-left: 10px; border-left: 4px solid var(--blue); }
   h3 { font-size: 16px; margin: 18px 0 8px; }
   .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; margin: 12px 0; }
+  .judge { border: 1px solid #d2992266; border-left: 5px solid var(--yellow); }
+  .judge .jtag { display:inline-block; font-size: 20px; font-weight: 800; color: var(--yellow); letter-spacing: 1px; }
+  .judge p { margin: 8px 0 0; }
   .verdict { border-left: 4px solid var(--green); }
   .verdict .row { display: flex; gap: 8px; margin: 6px 0; flex-wrap: wrap; }
   .tag { background: #1f6feb33; color: var(--blue); border-radius: 5px; padding: 1px 8px; font-size: 13px; white-space: nowrap; }
@@ -49,7 +52,7 @@
   .wbar .track { flex: 1; background: #21262d; border-radius: 4px; height: 16px; position: relative; overflow: hidden; }
   .wbar .track i { position: absolute; top: 0; bottom: 0; border-radius: 4px; }
   .wbar .val { width: 64px; font-variant-numeric: tabular-nums; text-align: right; }
-  ul { margin: 8px 0; padding-left: 22px; }
+  ul, ol { margin: 8px 0; padding-left: 22px; }
   li { margin: 4px 0; }
   code { background: #21262d; border-radius: 4px; padding: 1px 6px; font-size: 13px; }
   .foot { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12.5px; }
@@ -64,21 +67,42 @@
 
 <header>
   <h1><span class="pig">🐷💨</span> 美股板块趋势报告 · 2026-08-29</h1>
-  <div class="meta">windpig · 风口上的猪 | 复盘本周 8/24–8/28 | 数据 as-of 2026-08-28 收盘 | 由 windpig skill 生成</div>
+  <div class="meta">windpig · 风口上的猪 | 复盘本周 8/24–8/28 | 数据 as-of 2026-08-28 收盘 | 判断版 v2</div>
 </header>
 
+<div class="card judge">
+  <span class="jtag">【判断：WAIT → BUY】</span>
+  <p><strong>软件是下一波，PLTR 是唯一 primary，等回踩买入；其余全部不动手。</strong></p>
+</div>
+
 <div class="card verdict">
-  <h3 style="margin-top:0">结论 TL;DR</h3>
+  <h3 style="margin-top:0">交易策略卡（触发即执行）</h3>
+  <table>
+    <tbody>
+      <tr><td style="width:130px"><strong>标的与方向</strong></td><td>PLTR 做多（primary）；IGV 作为同 exposure 的替代工具</td></tr>
+      <tr><td><strong>触发价 / 信号</strong></td><td>PLTR 回踩 20EMA <strong>169</strong> 分两批买（第一批 169 附近，第二批站稳 + RS 继续上行）；IGV 回踩 20EMA <strong>102.5</strong> 可替代</td></tr>
+      <tr><td><strong>止损</strong></td><td>154（50EMA 下方）或 2×ATR(14)=13.7 的下沿，取较宽者；thesis 证伪点：CRM 财报（9 月初）否定 AI 变现加速</td></tr>
+      <tr><td><strong>加仓</strong></td><td>回踩不破 + IGV RS vs SPY 继续上行 + breadth 扩大（不只 MSFT/NOW/PLTR 三只在涨）</td></tr>
+      <tr><td><strong>退出</strong></td><td>9/5 非农过热 → 降息交易逆转；或 PLTR/IGV 跌破 50EMA + 死叉；或 regime 转 Range</td></tr>
+      <tr><td><strong>持有预期</strong></td><td>数周至 FOMC（9/18）前后，随确认逐级评估</td></tr>
+      <tr><td><strong>仓位原则</strong></td><td>单标的上限保守（占总资金 ≤10–20%，按自身风控调整），分批 2–3 笔</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>结论 TL;DR</h2>
+<div class="card">
   <div class="row">
     <span class="pill g">Regime: Bull Trend</span>
     <span class="pill g">下一波候选: Software / AI 变现层 (IGV)</span>
-    <span class="pill y">Primary trade: PLTR 回踩 20EMA 进</span>
-    <span class="pill y">Semis → watchlist（等价格确认）</span>
+    <span class="pill y">PLTR 回踩 169 买入 · 不追高</span>
+    <span class="pill r">Semis: NO TRADE（等 SMH 收复 565–569）</span>
   </div>
   <p style="margin:10px 0 0">
     <strong>NVDA 财报把 AI capex thesis 钉死了</strong>（FY28 指引 +70% vs 预期 +45%），但资金这周奖励的是
     <strong>“AI 变现层”而不是半导体</strong>：IGV 全周最强 (+5.93%)，NOW +12.6% 突破、PLTR roc20 +51%。
     框架之问——<em>“NVDA 横盘时哪个 layer 创新高？”</em>——本周的答案是 <strong>Software</strong>。
+    唯一动作：等 PLTR 回到 20EMA 的买点；NOW/MSFT 已过热不追，Semis/生科/金融都不动手。
   </p>
 </div>
 
@@ -177,18 +201,7 @@
 </table>
 </div>
 
-<h2>7. Trade Plan</h2>
-<div class="card">
-<ul>
-  <li><strong>Entry</strong>：PLTR 回踩 20EMA (169) 或 IGV 回踩 20EMA (102.5) 分批；不追 %B&gt;1 的位置（NOW/MSFT 当前均超上轨，NOW 等回踩 139–140 或 20EMA 125）</li>
-  <li><strong>Stop / Invalidation</strong>：PLTR 跌破 50EMA (154)；或 IGV 失守 98 (50EMA) / 20×50 死叉</li>
-  <li><strong>Add</strong>：IGV RS 继续上行 + breadth 扩大（不只 MSFT/NOW/PLTR 三只在涨）+ CRM 财报（9 月初）确认 AI re-acceleration</li>
-  <li><strong>Exit</strong>：9/5 非农过热 → 降息交易逆转；或 regime 转 Range</li>
-  <li><strong>Range 分支</strong>：不适用（Trend regime）</li>
-</ul>
-</div>
-
-<h2>8. 什么情况下 thesis 错了</h2>
+<h2>7. 什么情况下 thesis 错了</h2>
 <div class="card">
 <ol>
   <li>10Y 重新升破 4% → 长 duration 软件估值逻辑反噬</li>
@@ -198,7 +211,7 @@
 </ol>
 </div>
 
-<h2>9. Watchlist（不交易）</h2>
+<h2>8. Watchlist（不交易，触发即升级）</h2>
 <div class="card">
 <ul>
   <li><strong>SMH</strong> 收复 565–569 → 半导体升级为 primary（框架剧本第二幕）</li>
@@ -207,7 +220,7 @@
 </ul>
 </div>
 
-<h2>10. 接下来盯什么</h2>
+<h2>9. 接下来盯什么</h2>
 <div class="card">
 <table>
   <thead><tr><th>日期</th><th>事件</th><th>为什么重要</th></tr></thead>
