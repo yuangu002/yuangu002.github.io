@@ -9,7 +9,7 @@ description: Yuan Gu (顾源) is a software engineer at Google Cloud AI, working
 I am a software engineer at Google Cloud AI, working on enterprise agent quality. Outside of work, I am into working out and investing.
 
 ### Past
-You can find all my past titles on [LinkedIn](https://www.linkedin.com/in/gu-yuan/) or [resume](/assets/resume.pdf). Below are some of fun facts that I am particularly proud of:
+You can find all my past titles on [LinkedIn](https://www.linkedin.com/in/gu-yuan/). Below are some of fun facts that I am particularly proud of:
 - I am an open-source contributor. At Google, I built frameworks and services for a [system module](https://privacysandbox.google.com/protections/on-device-personalization) in Android 13/14. At Cloudera, I contributed to the next-gen storage system, [Apache Ozone](https://ozone.apache.org/), as a summer intern.
 - I graduated *summa cum laude* in three years for bachelor's degree, where I completed two majors in computer science and pure mathematics.
 - I love teaching. I have been teaching English to Chinese high school students. In particular, I helped them prepare standardized tests (TOEFL/SAT) for their college application. I also teach computer science: I was a teaching assistant for [CMU's cloud computing course](https://www.cs.cmu.edu/~msakr/15619-f21/) in fall 2021.
